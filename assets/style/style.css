@@ -9,11 +9,28 @@ html{
 }
 
 header{
-    height: 10vh;
-    background-color: rgba(129, 250, 250, 0.568);
     display: flex;
-    /* justify-content: space-between; */
+    position: fixed;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.438);
+    width: 100%;
+    z-index: 999;
+    height: 10vh;
+/*     height: 10vh;
+    width: 100%;
+    background-color: rgba(129, 250, 250, 0.192);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0rem; */
+}
+
+main{
+    min-height: 70vh;
+}
+
+footer{
+    height: 20vh;
 }
 
 .contenedor-logo-titulo{
@@ -50,11 +67,7 @@ header{
     text-decoration: none;
 }
 
-
-main{
-    min-height: 70vh;
-}
-
-footer{
-    height: 20vh;
+.video_background{
+    max-width: 100%;
+    min-height: 100%;
 }
