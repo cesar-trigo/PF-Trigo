@@ -71,3 +71,18 @@ footer{
     max-width: 100%;
     min-height: 100%;
 }
+
+.article-index{
+    display: flex;
+    flex-direction: column;
+}
+
+.conten-producto-index{
+    background-image: url(../img/ducati-streetfighter-v2.jpg);
+    background-size: cover;
+    background-position: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
