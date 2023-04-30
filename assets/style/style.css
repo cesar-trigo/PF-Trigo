@@ -51,7 +51,7 @@ footer {
    text-decoration: none;
 }
 
-.nav-header {
+.nav-header>ul {
    display: flex;
    justify-content: center;
    gap: 6rem;
@@ -114,7 +114,7 @@ footer {
 
 #slider {
    margin: 0 auto;
-   width: 1000px;
+   width: 50%;
    max-width: 100%;
    text-align: center;
 }
@@ -164,7 +164,6 @@ footer {
 #slides .inner {
    transition: margin-left 3s cubic-bezier(0.700, 0.700, 0.200, 0.700);
    width: 500%;
-   line-height: 0;
    height: 300px;
 }
 
@@ -172,15 +171,13 @@ footer {
    width: 20%;
    float: left;
    display: flex;
-   justify-content: center;
-   align-items: center;
-   height: 100%;
    color: #fff;
    height: 100vh;
 }
 
 #slides .slide_1 {
    background: #00171F;
+   height: 100vh;
 }
 
 #slides .slide_2 {
@@ -226,8 +223,8 @@ footer {
 #slide5:checked~#controls label:nth-child(1) {
    position: absolute;
    z-index: 2;
-   top: -13rem;
-   right: -7rem;
+   top: -12rem;
+   right: -15rem;
    display: block;
 }
 
@@ -239,10 +236,55 @@ footer {
    transform: scaleX(-1);
    position: absolute;
    z-index: 99;
-   top:-13rem;
-   left: -7rem;
+   top:-12rem;
+   left: -15rem;
    display: block;
 }
+
+.flecha-carrusel{
+   width: 2rem;
+}
+
+/* .slide-content{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+} */
+
+.p-1-carusel{
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.conten-titul-carrusel{
+   width: 100%;
+   background-image: url(../img/xd-iavel-s-my18.png);
+   background-size: cover;
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+.n-sition-sitio{
+   color: red;
+}
+
+.conten-p-carrusel{
+   height: 50%;
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+/* .p-carusel{
+
+} */
 
 #bullets {
    margin: 150px 0 0;
