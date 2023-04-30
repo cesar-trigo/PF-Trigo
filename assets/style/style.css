@@ -224,13 +224,11 @@ footer {
 #slide3:checked~#controls label:nth-child(4),
 #slide4:checked~#controls label:nth-child(5),
 #slide5:checked~#controls label:nth-child(1) {
-   background-image: url(../img/ducati-streetfighter-v2.jpg);
    position: absolute;
    z-index: 2;
    top: -13rem;
    right: -7rem;
    display: block;
-   background-color: red;
 }
 
 #slide1:checked~#controls label:nth-last-child(1),
@@ -238,14 +236,12 @@ footer {
 #slide3:checked~#controls label:nth-last-child(4),
 #slide4:checked~#controls label:nth-last-child(3),
 #slide5:checked~#controls label:nth-last-child(2) {
-   background-image: url(https://cdn-icons-png.flaticon.com/512/318/318476.png) no-repeat;
    transform: scaleX(-1);
    position: absolute;
    z-index: 99;
    top:-13rem;
    left: -7rem;
    display: block;
-   background-color: rgb(63, 171, 44);
 }
 
 #bullets {
