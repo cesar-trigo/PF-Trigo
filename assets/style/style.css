@@ -50,8 +50,8 @@ footer {
 .h1 {
    letter-spacing: .5rem;
    text-decoration: none;
-   -webkit-text-fill-color:#ff00008c;
-   -webkit-text-stroke: .1px rgba(255, 255, 255, 0.174);
+   color: rgb(155, 2, 2);
+   text-shadow: -.1px 0 rgba(121, 120, 120, 0.591), 0 .1px rgba(115, 114, 114, 0.463), .1px 0 rgba(109, 109, 109, 0.4), 0 -.1px rgba(94, 94, 94, 0.511);
 }
 
 .nav-header>ul {
