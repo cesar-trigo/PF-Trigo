@@ -16,7 +16,7 @@ html {
     "footer"
     ;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 1fr 30vh;
+    grid-template-rows: 0vh 1fr 30vh;
 }
 
 
@@ -40,22 +40,17 @@ main {
 
 footer {
     grid-area: footer;
-    /* width: 100%; */
     background-color: #bebebe23;
     display: grid;
     grid-template-columns: 50% 40%;
-    grid-template-rows: 3fr 1fr;
+    grid-template-rows: 5fr 1fr;
     justify-content: center;
-/*     flex-direction: column;
-    justify-content: space-between;
-    align-items: center; */
 }
 
 .conten-nav-name{
     grid-column: 1/2;
     grid-row: 1/2;
 }
-
 
 .conten-li{
     display: flex;
@@ -69,25 +64,57 @@ footer {
 
 .conten-li>li>a{
     text-decoration: none;
+    color: white;
+}
+
+.conten-li>li>a:hover{
+    color: rgba(255, 255, 255, 0.573);
+    -webkit-text-stroke: .05px rgba(255, 255, 255, 0.817);
 }
 
 .conten-footer-img{
     grid-column: 2/3;
     grid-row: 1/2;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 2rem 0rem 0rem;
+    font-size: 1.4rem;
+    letter-spacing: .8rem;
+    color: rgba(255, 0, 0, 0.792);
+}
+
+.logo-foo{
+    height: 8rem;
+    position: absolute;
+    margin-top: .8rem;
+    margin-right: 3%;
+    z-index: -1;
 }
 
 .conten-p-footer{
     grid-column: 1/2;
     grid-row: 2/3;
     border-top: #fff solid 1px;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .conten-redes-footer{
     grid-column: 2/3;
     grid-row: 2/3;
     border-top: #fff solid 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .2rem;
 }
 
+.conten-redes-footer>a>img{
+    height: 1.1rem;
+}
+
+/* --------------Main--------------------- */
 
 .contenedor-logo-titulo {
     display: flex;
@@ -125,15 +152,17 @@ footer {
     text-decoration: none;
     color: white;
 }
+/* --------------Main--------------------- */
+.article-index {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 110vh 120vh 110vh 100vh 50vh;
+    flex-direction: column;
+}
 
 .video_background {
     max-width: 100%;
     min-height: 100%;
-}
-
-.article-index {
-    display: flex;
-    flex-direction: column;
 }
 
 .conten-producto-index {
@@ -221,7 +250,7 @@ footer {
 #slides .inner {
     transition: margin-left 3s cubic-bezier(0.700, 0.700, 0.200, 0.700);
     width: 500%;
-    height: 300px;
+    height: 500px;
 }
 
 #slides .slide {

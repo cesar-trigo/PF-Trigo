@@ -121,6 +121,7 @@ footer {
    width: 50%;
    max-width: 100%;
    text-align: center;
+   height: 200vh;
 }
 
 #slider input[type=radio] {
