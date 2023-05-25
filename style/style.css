@@ -156,6 +156,7 @@ footer {
    grid-template-columns: 50% 40%;
    grid-template-rows: 5fr .5fr;
    justify-content: center;
+   height: 60vh;
 }
 
 /* footer::before{
@@ -1089,7 +1090,6 @@ main {
       background-size: contain;
    }
 }
-
 
 @media only screen and (max-width: 1250px) {
 
