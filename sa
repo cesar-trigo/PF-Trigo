@@ -1,0 +1,535 @@
+[33mcommit 1328ada0680998f24cbad842fa315709dafa0205[m[33m ([m[1;36mHEAD -> [m[1;32mrama-1[m[33m, [m[1;31morigin/rama-1[m[33m)[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Wed May 24 08:41:23 2023 -0300
+
+    se borro y actulizo html
+
+[33mcommit 6df2ee99d154d77084978fad145ec53f9d5ae4b2[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Wed May 24 08:40:35 2023 -0300
+
+    se borro y actulizo stilos de prueba
+
+[33mcommit 168faa87ea2c7c43b0e45f0c74be562f7e9368c2[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Sun May 21 23:51:50 2023 -0300
+
+    correcion de nav
+
+[33mcommit 8665116973eb6daa227e0c6068a2788c7c670529[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Sun May 21 18:05:12 2023 -0300
+
+    correcion de nav
+
+[33mcommit 57f62a0e59f25c2beae82e58e1b03cf102ae3927[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Sat May 20 02:14:01 2023 -0300
+
+    correcion de nav
+
+[33mcommit 5463943f5d0eb40dc43b426fb2f7d8e1f2aef8f2[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Fri May 19 23:52:35 2023 -0300
+
+    definicion-de-index-destock
+
+[33mcommit e553b3a61855309d462a18735297d533baa8c530[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Thu May 18 22:02:18 2023 -0300
+
+    definicion-de-index-destock
+
+[33mcommit 9d780bff7f1a7b4d9b43a68f3c65b86a600f848d[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Wed May 17 23:31:29 2023 -0300
+
+    definicion-de-index-destock
+
+[33mcommit 6c466fde56f9ad9d4cf4aea1ea76fdba994ef266[m
+Author: Cesar Trigo <cesar.luis-trigo@hotmail.com>
+Date:   Tue May 16 22:43:15 2023 -0300
+
+    nav-del-index
+
+[33mcommit bddda8bbd85eb3797a168be10f0a4956cf93cf3f[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri May 12 18:52:32 2023 -0300
+
+    img para sponsors
+
+[33mcommit 11f0c59a54dc01d8c816256330ac0c4460c9a641[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri May 12 18:51:52 2023 -0300
+
+    reacomodo del grid
+
+[33mcommit 15ab6a828ba94bc8530b0cf586b2b5e94f1758ca[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri May 12 18:48:00 2023 -0300
+
+    reacomodo del grid
+
+[33mcommit 03ddae71665663b3818875726dbb566f84c0f615[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Thu May 11 18:05:33 2023 -0300
+
+    implementacion de grid
+
+[33mcommit ab4d1756964f8f1203dd7d93447b4650677536c1[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 9 23:54:13 2023 -0300
+
+    pruebas con grid
+
+[33mcommit 8314338d0b3ee5fa80369bfcdbc788dd76bf2549[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon May 8 22:54:09 2023 -0300
+
+    p-footer
+
+[33mcommit 0f10a37815b02b419da6d1f0086756688c91a048[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon May 8 22:50:41 2023 -0300
+
+    footer-texto
+
+[33mcommit 787a5211005261f998b2f1ff0ada08a4c53ba120[m
+Merge: 622372c 3cde109
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon May 8 22:48:37 2023 -0300
+
+    Merge branch 'fase-1' of https://github.com/cesar-trigo/Proyecto-Desarrollo-Web into rama-1
+
+[33mcommit 622372c3f0c2b4fe8098709cac4b176569cdd68c[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon May 8 22:48:17 2023 -0300
+
+    opacidad en articulo css
+
+[33mcommit 3cde1093a02550fa32319bc0ffde7ac8c9e51570[m[33m ([m[1;31morigin/fase-1[m[33m)[m
+Merge: 387e373 a14ad3d
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Sun May 7 23:30:51 2023 -0300
+
+    Merge pull request #12 from cesar-trigo/rama-1
+    
+    h1-css
+
+[33mcommit a14ad3d5a0ba8c4b2f0869a7487f79301f36b10b[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sun May 7 23:28:13 2023 -0300
+
+    h1-css
+
+[33mcommit 387e373b58c556f3aee8673900eaf1044a219a49[m
+Merge: dd241b0 a0b5f7e
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Sat May 6 23:13:04 2023 -0300
+
+    Merge pull request #11 from cesar-trigo/rama-1
+    
+    css-html semántica
+
+[33mcommit a0b5f7e612e2f1590fff9ca968e2c611f1efc33b[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat May 6 23:11:44 2023 -0300
+
+    css-html semantica
+
+[33mcommit dd241b01d35a6e3f708d533fdfa509ebb426a9d0[m
+Merge: 5381528 4e244fe
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Fri May 5 21:02:38 2023 -0300
+
+    Merge pull request #10 from cesar-trigo/rama-1
+    
+    h1-en modelos
+
+[33mcommit 4e244fe90975d5be62edbff7d937f605979987d4[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri May 5 21:01:45 2023 -0300
+
+    h1-en modelos
+
+[33mcommit 538152807dae370b4445f0b491bee90a2a9f79b4[m
+Merge: f795c15 e3732d5
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Thu May 4 21:26:17 2023 -0300
+
+    Merge pull request #9 from cesar-trigo/rama-1
+    
+    Rama 1
+
+[33mcommit e3732d52056b2f1e8c6fcad5f77915915c390527[m
+Merge: 2d4bd4b f795c15
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Thu May 4 21:24:36 2023 -0300
+
+    pruebas de codigo
+
+[33mcommit 2d4bd4b1b1d9e4a91d37412d37862f05258d9d21[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Thu May 4 16:24:33 2023 -0300
+
+    img para el uso del index
+
+[33mcommit f795c1508d88ce90f9fc1b4b8ecc80591af0c170[m
+Merge: 80bbfb6 ba3cd67
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Tue May 2 18:17:08 2023 -0300
+
+    Merge pull request #8 from cesar-trigo/rama-1
+    
+    Rama 1
+
+[33mcommit ba3cd67b708681dd1ea142ea104f5769390fab05[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:13:51 2023 -0300
+
+    img para el uso del index
+
+[33mcommit bf6ea222345d295a5721046df360f3a4bce03520[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:12:53 2023 -0300
+
+    imcorporacion de video para index
+
+[33mcommit 7743baa88d784f6ced6644a0a3a35fa1eb0e6236[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:11:13 2023 -0300
+
+    se estructuro completo pag modelos
+
+[33mcommit 99d086098c13a0837c994653b49afeca1a951240[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:10:54 2023 -0300
+
+    se estructuro completo pag sobre nosotros
+
+[33mcommit 6f48194194daaa6f4d690ed57487b5dc62e96ce0[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:10:34 2023 -0300
+
+    se estructuro completo pag eventos
+
+[33mcommit e5fbdf868df732daecc5ae7ccd0214a3102d06af[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:10:09 2023 -0300
+
+    se estructuro completo
+
+[33mcommit 6b8d4fb1da77217c09dea60bd289e8fcff2252a9[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:09:30 2023 -0300
+
+    css-index-completo-1/2
+
+[33mcommit ee0fdbe05f739062f29e64617f7a7dcef8635488[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Tue May 2 18:08:59 2023 -0300
+
+    index-completo-1/2
+
+[33mcommit 87837cebb846858a54f60c1d5e0e78606c4f1f52[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sun Apr 30 13:01:38 2023 -0300
+
+    partes de motos
+
+[33mcommit 35956369bc0016d0a8bb2272bbff71648d4adbed[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sun Apr 30 13:01:32 2023 -0300
+
+    partes de motos
+
+[33mcommit 9386a8d8407a98f0737142da311e5970307ceac0[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sun Apr 30 13:01:19 2023 -0300
+
+    partes de motos
+
+[33mcommit 6178da533d76582c1603b248e79c83012e5d4af3[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sun Apr 30 11:16:22 2023 -0300
+
+    img-prueba-carrusel
+
+[33mcommit 94cb4125f21d62fc5bea09b159520105b7db2cb8[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sun Apr 30 11:15:52 2023 -0300
+
+    carrusel
+
+[33mcommit 7c2d06916434fe6560e08df463d1dfe705592d59[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sun Apr 30 11:15:23 2023 -0300
+
+    partes-carrusel
+
+[33mcommit 80bbfb65a234652842ffc0e89c4867ca4b26ec8f[m
+Merge: 7158ab9 de5905d
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Sat Apr 29 22:24:54 2023 -0300
+
+    Merge pull request #7 from cesar-trigo/rama-1
+    
+    Rama 1
+
+[33mcommit de5905df80fd180974b747309d4a1d1f2e1aa8bc[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 22:23:01 2023 -0300
+
+    img-flecha-carrusel
+
+[33mcommit 1cde5f0a7017c09d9e8de98c374c029cf5e1f85e[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 22:22:15 2023 -0300
+
+    flechas de carrusel
+
+[33mcommit 8898c79c2b4fb110de27c8671fc9add935f6d05a[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 22:20:46 2023 -0300
+
+    flechas de carrusel
+
+[33mcommit 731f04b4d705f49866fed64030167cbae1c94cd7[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 16:30:04 2023 -0300
+
+    img-flechas
+
+[33mcommit eb232003a9f04badd04b08ae62a2d862b3cb94be[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 16:29:34 2023 -0300
+
+    terminando funcionalidad del carrusel
+
+[33mcommit 6a4396970357dca92886937d98c4ab784f3b837d[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 16:29:02 2023 -0300
+
+    terminando funcionalidad del carrusel
+
+[33mcommit 7158ab9c64041cbd89651f995fa8c367194318f1[m
+Merge: 6f06bac db4b37c
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Sat Apr 29 14:27:42 2023 -0300
+
+    Merge pull request #6 from cesar-trigo/rama-1
+    
+    Rama 1
+
+[33mcommit db4b37ce9a1674756ea851ce2265701ddbb95968[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 14:26:52 2023 -0300
+
+    visualisacion al articulo index
+
+[33mcommit 9cb0208cee3a69e658b5622d6b7d5f72dfe1e326[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 14:25:32 2023 -0300
+
+    se agrego mas class en index
+
+[33mcommit cca0492bfe6a273e5abdba5cae33500534aee2c8[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 13:07:37 2023 -0300
+
+    maquetodo de carrusel
+
+[33mcommit f7cd271241fceca72a87287fda07dad4d0af4b25[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 13:07:22 2023 -0300
+
+    maquetodo de carrusel
+
+[33mcommit 6f06bacbe3530452672d8c2f9c9b4f43f6b6bd63[m
+Merge: f26baac 1684c92
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Sat Apr 29 08:39:07 2023 -0300
+
+    Merge pull request #5 from cesar-trigo/rama-1
+    
+    Rama 1
+
+[33mcommit 1684c926db1e33ed983681e2e93c115fe69f34ae[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 08:38:26 2023 -0300
+
+    nuevas img
+
+[33mcommit 9c9928ba10381e6cc4e857ab3f231769e7cda042[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 08:38:01 2023 -0300
+
+    video ajustes esteticos en video
+
+[33mcommit dc1d5aca74bf4531fcffe048251c8b28cf1b2026[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Sat Apr 29 08:37:16 2023 -0300
+
+    video en index
+
+[33mcommit f26baacbdc883d36d7460d06584e73370bdc80d2[m
+Merge: e5d573c 8f9f2d8
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Fri Apr 28 22:47:57 2023 -0300
+
+    Merge pull request #4 from cesar-trigo/rama-1
+    
+    Rama 1
+
+[33mcommit 8f9f2d8677f2e8b4e35c71146aa31ed36a0d2129[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 22:46:55 2023 -0300
+
+    video
+
+[33mcommit 5e1553514097282853409b61960665bf52d8d204[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 22:46:09 2023 -0300
+
+    visualisacion de video
+
+[33mcommit cc113ac57aa52ab174dfd1bc7d41b3a686457369[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 22:45:33 2023 -0300
+
+    incorporacion de video al index
+
+[33mcommit e5d573c5448ed0a1cd52d885f2d73c717309723e[m
+Merge: 1e9b3e6 88bc6d4
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Fri Apr 28 20:11:22 2023 -0300
+
+    Merge pull request #3 from cesar-trigo/rama-1
+    
+    Rama 1
+
+[33mcommit 88bc6d430045ff51ba74bb41fe9fc6e447da8f74[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 18:54:08 2023 -0300
+
+    logo
+
+[33mcommit 9536f09f94044753f95828b915acd6f81efbc464[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 18:53:42 2023 -0300
+
+    css del header
+
+[33mcommit 71affafa0826e5cb3633b98879d160485897c4f5[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 18:52:40 2023 -0300
+
+    estructura en pag contacto
+
+[33mcommit bd4a4fb03905a851e145e50cc32b1bdae7219c50[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 18:52:15 2023 -0300
+
+    estructura en pag sobre-nosotros
+
+[33mcommit 4f6cb1232a8cf92edc3aac916aba8c365b26c411[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 18:51:38 2023 -0300
+
+    estructura en pag eventos
+
+[33mcommit 1af8eedd0aa15f2ced6f3dda9d7548cc00aace52[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 18:51:10 2023 -0300
+
+    estructura en pag modelos
+
+[33mcommit f2f38e1ebdd2f15a00838fb99d30ba900ff5113e[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 18:49:39 2023 -0300
+
+    funciones al index
+
+[33mcommit cf723c5e4c8dda8aaf69dd617f46d3487626cad7[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 13:49:49 2023 -0300
+
+    estructura del index
+
+[33mcommit cf3e986dbf996eca0e674990b021cc28abd2b9b0[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Fri Apr 28 13:32:34 2023 -0300
+
+    nav del index
+
+[33mcommit 1e9b3e61bd3909dca39a5543e6e9e1ff2882b7c8[m
+Merge: 9d3f38b 2bc4b6e
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Thu Apr 27 22:39:19 2023 -0300
+
+    Merge pull request #2 from cesar-trigo/rama-1
+    
+    html-inicio-index
+
+[33mcommit 2bc4b6eac3b7f7b813f9b8aea9d803004d2240ed[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Thu Apr 27 22:38:31 2023 -0300
+
+    html-inicio-index
+
+[33mcommit 9d3f38ba14a915a77b389088719412ef60175815[m
+Merge: 73b1c59 d826b13
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Tue Apr 25 00:03:13 2023 -0300
+
+    Merge pull request #1 from cesar-trigo/rama-1
+    
+    carpetas
+
+[33mcommit d826b136f01a487624e7d4d3427a8f7fc9aef374[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon Apr 24 23:58:20 2023 -0300
+
+    vscode
+
+[33mcommit 66d8c6f97e7dfc9bf106c032dccd8be459d35e9b[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon Apr 24 23:57:41 2023 -0300
+
+    css
+
+[33mcommit 3201e79d4ba13a0d6225c9008ad4410ef2e8fdec[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon Apr 24 23:56:04 2023 -0300
+
+    pag-acerca-de-nosotros
+
+[33mcommit 4a08bb62821469e8618160b2e5d0eaeab1b127d2[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon Apr 24 23:55:18 2023 -0300
+
+    pag-contacto
+
+[33mcommit d8ba709a4c5c30e605db78089a7440bf3ca7fbcc[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon Apr 24 23:54:34 2023 -0300
+
+    pag-eventos
+
+[33mcommit 1af112232ed2986ca00aa133f14a56bb1e003a3f[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon Apr 24 23:53:39 2023 -0300
+
+    pag-modelos
+
+[33mcommit 53a9b38a4d2834758f9bcd85a379aafd027b67bc[m
+Author: zincel <106347425+zincel@users.noreply.github.com>
+Date:   Mon Apr 24 23:52:27 2023 -0300
+
+    index
+
+[33mcommit 73b1c59056b5a7851fe267c2f38f3a972cf035e0[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mwork[m[33m, [m[1;32mmaster[m[33m)[m
+Author: cesar-trigo <114601266+cesar-trigo@users.noreply.github.com>
+Date:   Mon Apr 24 23:12:48 2023 -0300
+
+    Initial commit

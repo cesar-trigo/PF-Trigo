@@ -49,6 +49,8 @@
    --state-hamburgesa: scale(0);
 }
 
+
+
 .nav-logo {
    font-size: 2.5rem;
    z-index: 4;
@@ -252,6 +254,7 @@ footer {
 main {
    grid-area: main;
    width: 100%;
+   min-height: 40vh;
 }
 
 .article-index {
@@ -778,6 +781,70 @@ main {
 .greyscale:hover {
    filter: grayscale(0);
 }
+
+/* -------------- MODELOS --------------------- */
+
+.conten-section-modelos{
+   display: grid;
+   grid-template-columns: 100%;
+   grid-template-rows: repeat(6,100vh);
+}
+
+.conten-section-modelos section:nth-child(1){
+   height: 100vh;
+}
+
+.conten-section-modelos section:nth-child(2){
+   height: 100vh;
+}
+
+.conten-section-modelos section:nth-child(3){
+   background-image: url(../assets/img/bike-monster-sp.png);
+   background-size: contain;
+}
+
+.conten-section-modelos section:nth-child(4){
+   background-image: url(../assets/img/bike-streetfigter-v2.png);
+   background-size: contain;
+}
+
+.conten-section-modelos section:nth-child(5){
+   background-image: url(../assets/img/bike-xdiavel.png);
+   background-size: contain;
+}
+
+.conten-section-modelos section:nth-child(6){
+   background-image: url(../assets/img/bike-design-04.png);
+   background-size: contain;
+}
+
+
+.gradient {
+   position: relative;
+   min-height: 200px;
+   background-image:linear-gradient(to bottom, #000000, #fd1d1d54, #000000),url(../assets/img/bike-diavel-1260.png),url(../assets/img/fondo-2moto-2.png);
+   background-size: contain;
+   z-index: 1;
+}
+
+.gradient::before {
+   position: absolute;
+   content: "";
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-image:linear-gradient(to top, hsla(0, 0%, 0%, 0.623), hsla(0, 0%, 0%, 0.089)),url(../assets/img/bike-diavel-1260.png),linear-gradient(to top, hsla(0, 0%, 0%, 0.311), hsla(0, 0%, 0%, 0.187)),url(../assets/img/fondo-2moto-2.png);
+   background-size: contain;
+   z-index: -1;
+   transition: opacity 1s linear;
+   opacity: 0;
+}
+
+.gradient:hover::before {
+   opacity: 1;
+}
+
 
 /* --------------MEDDIA Q--------------------- */
 
