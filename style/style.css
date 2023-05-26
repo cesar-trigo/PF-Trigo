@@ -1029,36 +1029,43 @@ main {
 
 /* --------------PAGINA EVENTOS--------------------- */
 
-.main-bg-event{
-   background-color: #000000;
+.main-bg-event {
+   background-image: url(https://lamoto.com.ar/wp-content/uploads/2020/07/Salon-de-Motos-4.jpg);
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
    min-height: 100vh;
 }
 
-.seccion-proximo-event{
+.seccion-proximo-event {
    min-height: 110vh;
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
+.card-img-top{
+   height: 60%;
+}
+
 /* --------------PAGINA NOSOTROS--------------------- */
 
-.conten-img-nosotros{
+.conten-img-nosotros {
    height: 24rem;
    width: 24rem;
 }
 
 
-.img-nosotros{
+.img-nosotros {
    height: 100%;
    width: 100%;
 }
 
-.main-bg-nostros{
-   background-color: #000000;
+.main-bg-nostros {
+   background-image: url(../assets/img/ducati-motorcycle-kda-digital-art-2k-wallpaper-uhdpaper.com-784@0@g.jpg);
 }
 
-.container-ce{
+.container-ce {
    width: 60%;
    height: 10rem;
    display: flex;
@@ -1067,14 +1074,203 @@ main {
 }
 
 
-.conten-h1-nosotros{
+.conten-h1-nosotros {
    height: 13rem;
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
 }
 
+/* -------------- PAGINA CONTACTO --------------------- */
 
+.bg-main-contacto{
+   background-image: url(https://i.pinimg.com/originals/d9/3c/4c/d93c4c1c170ff3f1e83527102edfd1dc.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+}
+
+.bg-black-contacto{
+   background-color: #000000a7;
+}
+
+.bg-red-contacto{
+   background-color: rgba(125, 15, 15, 0.623);
+}
+
+.content-prim-part-contac {
+   height: 100vh;
+   background-color: #1a1515;
+}
+
+/* form */
+.content-contac {
+   height: 100vh;
+}
+
+.content-mapa {
+   height: 70vh;
+}
+
+.d-flex {
+   align-items: center;
+   justify-content: center;
+}
+
+.mapa-contac {
+   border-radius: 1rem;
+}
+
+
+
+/* form */
+
+.content-form {
+   width: 100%;
+   height: 80%;
+}
+
+
+.form-box {
+   max-width: 300px;
+   background: #ffffffe1;
+   overflow: hidden;
+   border-radius: 16px;
+   color: #010101;
+}
+
+.form {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   padding: 32px 24px 24px;
+   gap: 16px;
+   text-align: center;
+}
+
+/*Form text*/
+.title {
+   font-weight: bold;
+   font-size: 1.6rem;
+}
+
+.subtitle {
+   font-size: 1rem;
+   color: #666;
+}
+
+/*Inputs box*/
+.form-container {
+   overflow: hidden;
+   border-radius: 8px;
+   background-color: transparent;
+   margin: 1rem 0 .5rem;
+   width: 100%;
+}
+
+.input {
+   background: none;
+   border: 0;
+   outline: 0;
+   height: 40px;
+   width: 100%;
+   border-bottom: 1px solid #eee;
+   font-size: .9rem;
+   padding: 8px 15px;
+}
+
+.form-section {
+   padding: 16px;
+   font-size: .85rem;
+   background-color: #e0ecfb;
+   box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+   font-weight: bold;
+   color: #0066ff;
+   transition: color .3s ease;
+}
+
+.form-section a:hover {
+   color: #e6b400;
+   text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+   background-color: #07070757;
+   color: #fff;
+   border: 0;
+   border-radius: 10px;
+   padding: 10px 16px;
+   font-size: 1rem;
+   font-weight: 600;
+   cursor: pointer;
+   transition: background-color .3s ease;
+}
+
+.form button:hover {
+   background-color: #e60000;
+}
+
+
+.d-flex-contact {
+   display: flex;
+   height: 30rem;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.titulo-contacto {
+   height: 10rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* boton de redes de contacto */
+
+.button {
+   position: relative;
+   overflow: hidden;
+   height: 3rem;
+   width: 10rem;
+   padding: 0 2rem;
+   border-radius: .5rem;
+   background: #e0e0e0a0;
+   background-size: 400%;
+   color: #000000;
+   border: none;
+}
+
+.button:hover::before {
+   transform: scaleX(1);
+}
+
+.button-content {
+   position: relative;
+   z-index: 1;
+}
+
+.button::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: scaleX(0);
+   transform-origin: 0 50%;
+   width: 100%;
+   height: inherit;
+   border-radius: inherit;
+   background: linear-gradient(82.3deg,
+         rgb(200, 12, 12) 10.8%,
+         rgb(238, 88, 88) 94.3%);
+   transition: all 0.475s;
+}
 
 /* --------------MEDDIA Q--------------------- */
 
@@ -1703,11 +1899,13 @@ main {
       width: 185%;
       background-repeat: no-repeat;
    }
+
    .gradient-1::before {
       background-size: contain;
       width: 100%;
       background-repeat: no-repeat;
    }
+
    .conten-section-modelos {
       grid-template-rows: repeat(6, 60vh);
    }
