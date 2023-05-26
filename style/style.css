@@ -1027,6 +1027,55 @@ main {
    color: #ffffff;
 }
 
+/* --------------PAGINA EVENTOS--------------------- */
+
+.main-bg-event{
+   background-color: #000000;
+   min-height: 100vh;
+}
+
+.seccion-proximo-event{
+   min-height: 110vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/* --------------PAGINA NOSOTROS--------------------- */
+
+.conten-img-nosotros{
+   height: 24rem;
+   width: 24rem;
+}
+
+
+.img-nosotros{
+   height: 100%;
+   width: 100%;
+}
+
+.main-bg-nostros{
+   background-color: #000000;
+}
+
+.container-ce{
+   width: 60%;
+   height: 10rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+
+.conten-h1-nosotros{
+   height: 13rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+}
+
+
+
 /* --------------MEDDIA Q--------------------- */
 
 @media only screen and (max-width: 1500px) {
