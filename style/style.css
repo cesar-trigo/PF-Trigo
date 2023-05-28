@@ -1024,22 +1024,67 @@ main {
 /* --------------PAGINA EVENTOS--------------------- */
 
 .main-bg-event {
-   background-image: url(https://lamoto.com.ar/wp-content/uploads/2020/07/Salon-de-Motos-4.jpg);
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
+   background-color: #000000;
    min-height: 100vh;
 }
 
+.pading-0{
+   padding: 0;
+}
+
 .seccion-proximo-event {
-   min-height: 110vh;
+   min-height: 120vh;
    display: flex;
    align-items: center;
    justify-content: center;
 }
 
+.div-eventos{
+   height: 120vh;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
+   background-image: url(https://blog.tamaritmotorcycles.com/hubfs/caferacer-rockers_0003_Capa%201-min.jpg);
+   background-size: cover;
+   width: 100%;
+}
+
+.bg-trans{
+   background: linear-gradient(to top, #ffffff, #dad9d996, #00000000);
+   border-radius: 1rem;
+}
+
 .card-img-top {
    height: 60%;
+   border-radius: 1rem;
+}
+
+.conten-pre-evento{
+   height: 100vh;
+   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.514)), url(../assets/img/ws_Mountains_Trees_&_Hilly_Road_2560x1600.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   width: 100%;
+   padding: 0;
+}
+
+.card-eventos{
+   height: 25rem;
+   padding: 0;
+   border: none;
+   border-radius: 1rem;
+   background-color: #000000;
+}
+
+.img-pre-eventos{
+   height: 100%;
+   object-fit: cover;
+   border-radius: 1rem;
+   opacity: .8;
+   transition: .5s;
+}
+
+.img-pre-eventos:hover{
+   opacity: .4;
 }
 
 /* --------------PAGINA NOSOTROS--------------------- */
@@ -1073,6 +1118,14 @@ main {
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
+}
+
+.card-nosotros{
+   background-color: #000000;
+}
+
+.img-nosotros:hover{
+   opacity: .4;
 }
 
 /* -------------- PAGINA CONTACTO --------------------- */
@@ -1127,10 +1180,15 @@ main {
 
 .form-box {
    max-width: 300px;
-   background: #ffffffe1;
+   background: #0000006c;
    overflow: hidden;
    border-radius: 16px;
-   color: #010101;
+   color: #ffffff;
+}
+
+.text-area-form{
+   background-color: transparent;
+   border: transparent;
 }
 
 .form {
@@ -1150,7 +1208,7 @@ main {
 
 .subtitle {
    font-size: 1rem;
-   color: #666;
+   color: #ffffff;
 }
 
 /*Inputs box*/
@@ -1182,19 +1240,19 @@ main {
 
 .form-section a {
    font-weight: bold;
-   color: #0066ff;
+   color: #ffffff;
    transition: color .3s ease;
 }
 
 .form-section a:hover {
-   color: #e6b400;
+   color: #ffffff;
    text-decoration: underline;
 }
 
 /*Button*/
 .form button {
-   background-color: #07070757;
-   color: #fff;
+   background-color: #ffffff57;
+   color: #fdfdfd;
    border: 0;
    border-radius: 10px;
    padding: 10px 16px;
@@ -1205,7 +1263,8 @@ main {
 }
 
 .form button:hover {
-   background-color: #e60000;
+   background-color: #f8f8f8;
+   color: #000000;
 }
 
 
