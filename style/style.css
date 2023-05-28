@@ -87,7 +87,7 @@
 }
 
 .ul-nav-header {
-   background-image: url(../assets/img/img-noise-1080x500.png), linear-gradient(to right, rgba(27, 27, 27, 0.998), rgba(0, 0, 0, 0.605)), url(../assets/img/_aesthetic-nav.png);
+   background-image: url(../assets/img/img-noise-1080x500.png), linear-gradient(to right, rgba(27, 27, 27, 0.998), rgba(0, 0, 0, 0.605));
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
@@ -215,12 +215,7 @@ footer {
    align-items: center;
 }
 
-.logo-foo {
-   height: 14rem;
-   position: absolute;
-   margin-top: .8rem;
-   z-index: -1;
-}
+
 
 .h3-foo {
    font-family: 'Bebas Neue', sans-serif;
@@ -490,26 +485,25 @@ main {
 
 .img-carr-1 {
    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../assets/img/xd-iavel-s-my18.png);
-   background-size: cover;
 }
 
 .img-carr-2 {
    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../assets/img/diavel-1260.png);
-   background-size: cover;
 }
 
 .img-carr-3 {
    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../assets/img/hypermotard-950.png);
-   background-size: cover;
 }
 
 .img-carr-4 {
    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../assets/img/monster-1200.png);
-   background-size: cover;
 }
 
 .img-carr-5 {
    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(../assets/img/superleggera-v4.png);
+}
+
+.img-carr-background {
    background-size: cover;
 }
 
@@ -1044,7 +1038,7 @@ main {
    justify-content: center;
 }
 
-.card-img-top{
+.card-img-top {
    height: 60%;
 }
 
@@ -1083,18 +1077,18 @@ main {
 
 /* -------------- PAGINA CONTACTO --------------------- */
 
-.bg-main-contacto{
+.bg-main-contacto {
    background-image: url(https://i.pinimg.com/originals/d9/3c/4c/d93c4c1c170ff3f1e83527102edfd1dc.jpg);
    background-attachment: fixed;
    background-position: center;
    background-size: cover;
 }
 
-.bg-black-contacto{
+.bg-black-contacto {
    background-color: #000000a7;
 }
 
-.bg-red-contacto{
+.bg-red-contacto {
    background-color: rgba(125, 15, 15, 0.623);
 }
 
@@ -1532,9 +1526,6 @@ main {
    }
 
    /* footer */
-   .logo-foo {
-      height: 6rem;
-   }
 
    .conten-redes-footer {
       gap: 1rem;
@@ -1752,34 +1743,10 @@ main {
 
    /* footer */
    footer {
-      grid-area: footer;
-      background: url(../img/img-noise-1080x500.png);
-      background-color: #000000;
-      display: grid;
-      grid-template-columns: 90%;
-      grid-template-rows: .4fr .5fr .5fr .5fr;
-      justify-content: center;
-      min-height: 60vh;
-   }
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
 
-   .conten-footer-img {
-      grid-column: 1/2;
-      grid-row: 1/2;
-   }
-
-   .conten-nav-name {
-      grid-column: 1/2;
-      grid-row: 2/3;
-   }
-
-   .conten-redes-footer {
-      grid-column: 1/2;
-      grid-row: 3/4;
-   }
-
-   .conten-p-footer {
-      grid-column: 1/2;
-      grid-row: 4/5;
    }
 
    /* NAV */
@@ -1894,6 +1861,7 @@ main {
 }
 
 @media only screen and (max-width: 425px) {
+
    .gradient-1 {
       background-size: contain;
       width: 185%;
@@ -1908,5 +1876,68 @@ main {
 
    .conten-section-modelos {
       grid-template-rows: repeat(6, 60vh);
+   }
+
+   /* index-grid */
+   .article-index {
+      grid-template-rows: 100vh 110vh 1fr 1fr 75vh;
+   }
+
+   /* index-carrusel-img */
+
+   .img-carr-background {
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+
+   .p-1-carusel {
+      height: 90%;
+   }
+
+   .contenedor-carrusel-index::before {
+      display: none;
+   }
+
+   .conten-p-carrusel {
+      justify-content: space-between;
+      width: 90%;
+      height: 20rem;
+   }
+
+   .conten-p-carrusel p {
+      font-size: 1rem;
+   }
+
+   #slides .slide {
+      height: 75vh;
+   }
+
+   @media only screen and (max-width: 380px) {
+      /* footer */
+      .conten-p-footer {
+         gap: 0rem;
+     }
+      /* carrusel */
+      .bt-producto {
+         margin: 0px;
+         padding: 0.7rem 3rem 0.7rem 3rem;
+      }
+
+      .conten-p-carrusel p {
+         font-size: .8rem;
+      }
+
+      .conten-p-carrusel {
+         justify-content: space-around;
+      }
+
+      .p-1-carusel {
+         height: 100%;
+      }
+
+      #bullets label {
+         width: 30px;
+      }
    }
 }
