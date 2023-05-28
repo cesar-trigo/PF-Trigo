@@ -1676,6 +1676,14 @@ main {
       border-radius: 1rem;
    }
 
+   .bt-producto {
+      align-self: center;
+      text-decoration: none;
+      border-radius: 0.5rem;
+      padding: 0.7rem 5rem 0.7rem 5rem;
+      margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+   }
+
    /* sponsor */
    .conten-logos {
       width: 94%;
@@ -1892,7 +1900,7 @@ main {
    }
 
    .p-1-carusel {
-      height: 90%;
+      height: 100%;
    }
 
    .contenedor-carrusel-index::before {
@@ -1913,31 +1921,35 @@ main {
       height: 75vh;
    }
 
-   @media only screen and (max-width: 380px) {
-      /* footer */
-      .conten-p-footer {
-         gap: 0rem;
-     }
-      /* carrusel */
-      .bt-producto {
-         margin: 0px;
-         padding: 0.7rem 3rem 0.7rem 3rem;
-      }
 
-      .conten-p-carrusel p {
-         font-size: .8rem;
-      }
+}
 
-      .conten-p-carrusel {
-         justify-content: space-around;
-      }
+@media only screen and (max-width: 380px) {
 
-      .p-1-carusel {
-         height: 100%;
-      }
+   /* footer */
+   .conten-p-footer {
+      gap: 0rem;
+   }
 
-      #bullets label {
-         width: 30px;
-      }
+   /* carrusel */
+   .bt-producto {
+      margin: 0px;
+      padding: 0.7rem 3rem 0.7rem 3rem;
+   }
+
+   .conten-p-carrusel p {
+      font-size: .8rem;
+   }
+
+   .conten-p-carrusel {
+      justify-content: space-around;
+   }
+
+   .p-1-carusel {
+      height: 100%;
+   }
+
+   #bullets label {
+      width: 30px;
    }
 }
