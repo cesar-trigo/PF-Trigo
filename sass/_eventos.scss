@@ -1,0 +1,62 @@
+.main-bg-event {
+    background-color: #000000;
+    min-height: 100vh;
+}
+
+.pading-0 {
+    padding: 0;
+}
+
+.seccion-proximo-event {
+    min-height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-eventos {
+    height: 120vh;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    background-image: url(https://blog.tamaritmotorcycles.com/hubfs/caferacer-rockers_0003_Capa%201-min.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.bg-trans {
+    background: linear-gradient(to top, #ffffff, #dad9d996, #00000000);
+    border-radius: 1rem;
+}
+
+.card-img-top {
+    height: 60%;
+    border-radius: 1rem;
+}
+
+.conten-pre-evento {
+    height: 100vh;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.514)), url(../assets/img/ws_Mountains_Trees_&_Hilly_Road_2560x1600.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    padding: 0;
+}
+
+.card-eventos {
+    height: 25rem;
+    padding: 0;
+    border: none;
+    border-radius: 1rem;
+    background-color: #000000;
+}
+
+.img-pre-eventos {
+	height: 100%;
+	object-fit: cover;
+	border-radius: 1rem;
+	opacity: .8;
+	transition: .5s;
+	&:hover {
+		opacity: .4;
+	}
+}
