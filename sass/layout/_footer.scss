@@ -1,0 +1,82 @@
+footer {
+    grid-area: footer;
+    background: url(../assets/img/img-noise-1080x500.png);
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 5fr 0.5fr;
+    justify-content: center;
+    height: 60vh;
+}
+
+.conten-nav-name {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+}
+
+.conten-li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-family: "Barlow Condensed", sans-serif;
+            font-size: 1.2rem;
+            font-weight: bold;
+
+            &:hover {
+                color: rgba(255, 255, 255, 0.573);
+                -webkit-text-stroke: 0.05px rgba(255, 255, 255, 0.817);
+            }
+        }
+    }
+}
+
+.conten-footer-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 2rem 0rem 0rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.8rem;
+    color: rgba(255, 0, 0, 0.792);
+    z-index: 1;
+    align-items: center;
+}
+
+.h3-foo {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.conten-p-footer {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border-top: #fff solid 1px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.conten-redes-footer {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-top: #fff solid 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.2rem;
+
+    a {
+        img {
+            height: 1.1rem;
+        }
+    }
+}
