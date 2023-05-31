@@ -1,0 +1,36 @@
+.conten-img-nosotros {
+    height: 24rem;
+    width: 24rem;
+}
+
+.img-nosotros {
+    height: 100%;
+    width: 100%;
+
+    &:hover {
+        opacity: .4;
+    }
+}
+
+.main-bg-nostros {
+    background-image: url(../assets/img/ducati-motorcycle-kda-digital-art-2k-wallpaper-uhdpaper.com-784@0@g.jpg);
+}
+
+.container-ce {
+    width: 60%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conten-h1-nosotros {
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-nosotros {
+    background-color: #000000;
+}
