@@ -1248,6 +1248,182 @@ main {
   width: 105%;
 }
 
+@media only screen and (max-width: 1500px) {
+  .gradient-1 {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-1::before {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-2 {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-2::before {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-3 {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-3::before {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-4 {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-4::before {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-5 {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-5::before {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-6 {
+    background-position: center;
+    background-size: contain;
+  }
+  .gradient-6::before {
+    background-position: center;
+    background-size: contain;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  /* modelos */
+  .btn-modelos {
+    height: 3rem;
+    width: 10rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .gradient-1 {
+    background-size: cover;
+  }
+  .gradient-1::before {
+    background-size: cover;
+  }
+  .gradient-2 {
+    background-size: cover;
+  }
+  .gradient-2::before {
+    background-size: cover;
+  }
+  .gradient-3 {
+    background-size: cover;
+  }
+  .gradient-3::before {
+    background-size: cover;
+  }
+  .gradient-4 {
+    background-size: cover;
+  }
+  .gradient-4::before {
+    background-size: cover;
+  }
+  .gradient-5 {
+    background-size: cover;
+  }
+  .gradient-5::before {
+    background-size: cover;
+  }
+  .gradient-6 {
+    background-size: cover;
+  }
+  .gradient-6::before {
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* modelos */
+  .btn-modelos {
+    height: 2rem;
+    width: 7rem;
+    font-size: 0.7rem;
+  }
+  .gradient-1 {
+    background-size: contain;
+    width: 160%;
+  }
+  .gradient-1::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .gradient-2 {
+    background-size: contain;
+    width: 160%;
+  }
+  .gradient-2::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .gradient-3 {
+    background-size: contain;
+    width: 160%;
+  }
+  .gradient-3::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .gradient-4 {
+    background-size: contain;
+    width: 160%;
+  }
+  .gradient-4::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .gradient-5 {
+    background-size: contain;
+    width: 160%;
+  }
+  .gradient-5::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .gradient-6 {
+    background-size: contain;
+    width: 160%;
+  }
+  .gradient-6::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .conten-section-modelos {
+    grid-template-rows: repeat(6, 90vh);
+    justify-items: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .gradient-1 {
+    background-size: contain;
+    width: 185%;
+    background-repeat: no-repeat;
+  }
+  .gradient-1::before {
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+  .conten-section-modelos {
+    grid-template-rows: repeat(6, 60vh);
+  }
+}
 .main-bg-event {
   background-color: #000000;
   min-height: 100vh;
