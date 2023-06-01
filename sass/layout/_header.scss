@@ -124,3 +124,37 @@
   }
 }
 
+@media only screen and (max-width: 992px) {
+
+  /* navar */
+  .a-nav-header {
+    font-size: 8rem;
+  }
+
+  .ul-nav-header {
+    li {
+      &:nth-child(5) {
+        justify-self: center;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .ul-nav-header {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, .14fr);
+    justify-items: center;
+
+    li {
+      &:nth-child(5) {
+        grid-column: 1/2;
+      }
+    }
+  }
+
+  .a-nav-header {
+    font-size: 5rem;
+  }
+}
