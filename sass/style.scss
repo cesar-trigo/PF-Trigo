@@ -1,0 +1,15 @@
+@use "layout/header";
+@use "layout/footer";
+@use "index";
+@use "modelos";
+@use "eventos";
+@use "sobre-nosotros";
+@use "contacto";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+

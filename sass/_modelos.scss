@@ -1,0 +1,303 @@
+.conten-section-modelos {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(6, 100vh);
+    overflow: hidden;
+}
+
+.flex-modelos {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 4rem;
+}
+
+.img-modelos {
+    height: 100%;
+    width: auto;
+}
+
+.content-img-model {
+    height: 28rem;
+}
+
+/* 1 */
+
+.gradient-1 {
+    position: relative;
+    min-height: 200px;
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
+        background-size: cover;
+        background-position: center;
+        z-index: 2;
+        transition: opacity 1s linear;
+        opacity: 1;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0;
+            z-index: 1;
+        }
+    }
+}
+
+
+/* 2 */
+
+/* .gradient-2 {
+    position: relative;
+    min-height: 200px;
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
+        background-size: cover;
+        background-position: center;
+        z-index: 2;
+        transition: opacity 1s linear;
+        opacity: 1;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0;
+            z-index: 1;
+        }
+    }
+} */
+
+/* 3 */
+
+/* .gradient-3 {
+    position: relative;
+    min-height: 200px;
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
+        background-size: cover;
+        background-position: center;
+        z-index: 2;
+        transition: opacity 1s linear;
+        opacity: 1;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0;
+            z-index: 1;
+        }
+    }
+} */
+
+/* 4 */
+
+/* .gradient-4 {
+    position: relative;
+    min-height: 200px;
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
+        background-size: cover;
+        background-position: center;
+        z-index: 2;
+        transition: opacity 1s linear;
+        opacity: 1;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0;
+            z-index: 1;
+        }
+    }
+} */
+
+/* 5 */
+
+/* .gradient-5 {
+    position: relative;
+    min-height: 200px;
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
+        background-size: cover;
+        background-position: center;
+        z-index: 2;
+        transition: opacity 1s linear;
+        opacity: 1;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0;
+            z-index: 1;
+        }
+    }
+} */
+
+/* 6 */
+
+/* .gradient-6 {
+    position: relative;
+    min-height: 200px;
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: 1;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
+        background-size: cover;
+        background-position: center;
+        z-index: 2;
+        transition: opacity 1s linear;
+        opacity: 1;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0;
+            z-index: 1;
+        }
+    }
+} */
+
+/* btn */
+
+.btn-modelos {
+    text-decoration: none;
+    height: 3rem;
+    width: 10rem;
+    padding: 0.8em 1.8em;
+    border: 1px solid rgba(255, 0, 0, 0.194);
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #f5f1f1af;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: center;
+    border-radius: .5rem;
+
+    &::before {
+        content: '';
+        width: 0;
+        height: 300%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        background: #c31717a4;
+        transition: .6s ease;
+        display: block;
+        z-index: -1;
+        border: 0px;
+    }
+
+    &:hover {
+        color: #ffffff;
+
+        &::before {
+            width: 105%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+}
+
+@media only screen and (max-width: 1250px) {
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 450px) {
+    .content-img-model {
+        height: 20rem;
+    }
+    
+}
