@@ -5,11 +5,23 @@
     overflow: hidden;
 }
 
-
 .flex-modelos {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 4rem;
+}
+
+.img-modelos {
+    height: 100%;
+    width: auto;
+}
+
+.content-img-model {
+    height: 28rem;
 }
 
 /* 1 */
@@ -17,9 +29,11 @@
 .gradient-1 {
     position: relative;
     min-height: 200px;
-    background-image: linear-gradient(to bottom, #000000, #00000054, #000000), url(../assets/img/bike-diavel-1260.png), url(../assets/img/fondo-2moto-2.png);
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
     z-index: 1;
 
     &::before {
@@ -29,29 +43,33 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom, #00000095, #00000054, #0000007c), url(../assets/img/bike-diavel-1260.png), linear-gradient(to top, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0)), url(../assets/img/fondo-2moto-2.png);
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
         background-size: cover;
         background-position: center;
-        z-index: -1;
+        z-index: 2;
         transition: opacity 1s linear;
-        opacity: 0;
+        opacity: 1;
     }
 
     &:hover {
         &::before {
-            opacity: 1;
+            opacity: 0;
+            z-index: 1;
         }
     }
 }
+
 
 /* 2 */
 
-.gradient-2 {
+/* .gradient-2 {
     position: relative;
     min-height: 200px;
-    background-image: linear-gradient(to bottom, #000000, #00000054, #000000), url(../assets/img/bike-design-04.png), url(../assets/img/fondo-2moto-2.png);
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
     z-index: 1;
 
     &::before {
@@ -61,29 +79,32 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom, #00000095, #00000054, #0000007c), url(../assets/img/bike-design-04.png), linear-gradient(to top, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0)), url(../assets/img/fondo-2moto-2.png);
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
         background-size: cover;
         background-position: center;
-        z-index: -1;
+        z-index: 2;
         transition: opacity 1s linear;
-        opacity: 0;
+        opacity: 1;
     }
 
     &:hover {
         &::before {
-            opacity: 1;
+            opacity: 0;
+            z-index: 1;
         }
     }
-}
+} */
 
 /* 3 */
 
-.gradient-3 {
+/* .gradient-3 {
     position: relative;
     min-height: 200px;
-    background-image: linear-gradient(to bottom, #000000, #00000054, #000000), url(../assets/img/bike-hyper-950sp.png), url(../assets/img/fondo-2moto-2.png);
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
     z-index: 1;
 
     &::before {
@@ -93,29 +114,32 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom, #00000095, #00000054, #0000007c), url(../assets/img/bike-hyper-950sp.png), linear-gradient(to top, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0)), url(../assets/img/fondo-2moto-2.png);
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
         background-size: cover;
         background-position: center;
-        z-index: -1;
+        z-index: 2;
         transition: opacity 1s linear;
-        opacity: 0;
+        opacity: 1;
     }
 
     &:hover {
         &::before {
-            opacity: 1;
+            opacity: 0;
+            z-index: 1;
         }
     }
-}
+} */
 
 /* 4 */
 
-.gradient-4 {
+/* .gradient-4 {
     position: relative;
     min-height: 200px;
-    background-image: linear-gradient(to bottom, #000000, #00000054, #000000), url(../assets/img/bike-monster-sp.png), url(../assets/img/fondo-2moto-2.png);
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
     z-index: 1;
 
     &::before {
@@ -125,29 +149,32 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom, #00000095, #00000054, #0000007c), url(../assets/img/bike-monster-sp.png), linear-gradient(to top, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0)), url(../assets/img/fondo-2moto-2.png);
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
         background-size: cover;
         background-position: center;
-        z-index: -1;
+        z-index: 2;
         transition: opacity 1s linear;
-        opacity: 0;
+        opacity: 1;
     }
 
     &:hover {
         &::before {
-            opacity: 1;
+            opacity: 0;
+            z-index: 1;
         }
     }
-}
+} */
 
 /* 5 */
 
-.gradient-5 {
+/* .gradient-5 {
     position: relative;
     min-height: 200px;
-    background-image: linear-gradient(to bottom, #000000, #00000054, #000000), url(../assets/img/bike-streetfigter-v2.png), url(../assets/img/fondo-2moto-2.png);
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
     z-index: 1;
 
     &::before {
@@ -157,29 +184,32 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom, #00000095, #00000054, #0000007c), url(../assets/img/bike-streetfigter-v2.png), linear-gradient(to top, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0)), url(../assets/img/fondo-2moto-2.png);
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
         background-size: cover;
         background-position: center;
-        z-index: -1;
+        z-index: 2;
         transition: opacity 1s linear;
-        opacity: 0;
+        opacity: 1;
     }
 
     &:hover {
         &::before {
-            opacity: 1;
+            opacity: 0;
+            z-index: 1;
         }
     }
-}
+} */
 
 /* 6 */
 
-.gradient-6 {
+/* .gradient-6 {
     position: relative;
     min-height: 200px;
-    background-image: linear-gradient(to bottom, #000000, #00000054, #000000), url(../assets/img/bike-xdiavel.png), url(../assets/img/fondo-2moto-2.png);
+    background-image: radial-gradient(ellipse, #00000033, #00000016, #000000e6),
+        url(https://wallpapers.com/images/hd/neat-underground-garage-parking-lot-m32aj9tvh7hharro.jpg);
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: bottom;
     z-index: 1;
 
     &::before {
@@ -189,27 +219,28 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-image: linear-gradient(to bottom, #00000095, #00000054, #0000007c), url(../assets/img/bike-xdiavel.png), linear-gradient(to top, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0)), url(../assets/img/fondo-2moto-2.png);
+        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
         background-size: cover;
         background-position: center;
-        z-index: -1;
+        z-index: 2;
         transition: opacity 1s linear;
-        opacity: 0;
+        opacity: 1;
     }
 
     &:hover {
         &::before {
-            opacity: 1;
+            opacity: 0;
+            z-index: 1;
         }
     }
-}
+} */
 
 /* btn */
 
 .btn-modelos {
     text-decoration: none;
-    height: 20%;
-    width: 36%;
+    height: 3rem;
+    width: 10rem;
     padding: 0.8em 1.8em;
     border: 1px solid rgba(255, 0, 0, 0.194);
     position: relative;
@@ -253,224 +284,20 @@
 }
 
 @media only screen and (max-width: 1500px) {
-    .gradient-1 {
-        background-position: center;
-        background-size: contain;
-
-        &::before {
-            background-position: center;
-            background-size: contain;
-        }
-    }
-
-    .gradient-2 {
-        background-position: center;
-        background-size: contain;
-
-        &::before {
-            background-position: center;
-            background-size: contain;
-        }
-    }
-
-    .gradient-3 {
-        background-position: center;
-        background-size: contain;
-
-        &::before {
-            background-position: center;
-            background-size: contain;
-        }
-    }
-
-    .gradient-4 {
-        background-position: center;
-        background-size: contain;
-
-        &::before {
-            background-position: center;
-            background-size: contain;
-        }
-    }
-
-    .gradient-5 {
-        background-position: center;
-        background-size: contain;
-
-        &::before {
-            background-position: center;
-            background-size: contain;
-        }
-    }
-
-    .gradient-6 {
-        background-position: center;
-        background-size: contain;
-
-        &::before {
-            background-position: center;
-            background-size: contain;
-        }
-    }
-
 }
 
 @media only screen and (max-width: 1250px) {
-
-    /* modelos */
-    .btn-modelos {
-        height: 3rem;
-        width: 10rem;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
-    .gradient-1 {
-        background-size: cover;
-
-        &::before {
-            background-size: cover;
-        }
-    }
-
-    .gradient-2 {
-        background-size: cover;
-
-        &::before {
-            background-size: cover;
-        }
-    }
-
-    .gradient-3 {
-        background-size: cover;
-
-        &::before {
-            background-size: cover;
-        }
-    }
-
-    .gradient-4 {
-        background-size: cover;
-
-        &::before {
-            background-size: cover;
-        }
-    }
-
-    .gradient-5 {
-        background-size: cover;
-
-        &::before {
-            background-size: cover;
-        }
-    }
-
-    .gradient-6 {
-        background-size: cover;
-
-        &::before {
-            background-size: cover;
-        }
-    }
-
 }
 
 @media only screen and (max-width: 768px) {
-
-    /* modelos */
-    .btn-modelos {
-        height: 2rem;
-        width: 7rem;
-        font-size: .7rem;
-    }
-
-    .gradient-1 {
-        background-size: contain;
-        width: 160%;
-
-        &::before {
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-    .gradient-2 {
-        background-size: contain;
-        width: 160%;
-
-        &::before {
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-    .gradient-3 {
-        background-size: contain;
-        width: 160%;
-
-        &::before {
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-    .gradient-4 {
-        background-size: contain;
-        width: 160%;
-
-        &::before {
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-    .gradient-5 {
-        background-size: contain;
-        width: 160%;
-
-        &::before {
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-    .gradient-6 {
-        background-size: contain;
-        width: 160%;
-
-        &::before {
-            background-size: contain;
-            background-repeat: no-repeat;
-            width: 100%;
-        }
-    }
-
-    .conten-section-modelos {
-        grid-template-rows: repeat(6, 90vh);
-        justify-items: center;
-    }
 }
 
 @media only screen and (max-width: 450px) {
-    .gradient-1 {
-        background-size: contain;
-        width: 185%;
-        background-repeat: no-repeat;
-
-        &::before {
-            background-size: contain;
-            width: 100%;
-            background-repeat: no-repeat;
-        }
+    .content-img-model {
+        height: 20rem;
     }
-
-    .conten-section-modelos {
-        grid-template-rows: repeat(6, 60vh);
-    }
-
+    
 }
