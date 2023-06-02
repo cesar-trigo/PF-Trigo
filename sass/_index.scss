@@ -121,7 +121,6 @@ main {
 
 #overflow {
     width: 100%;
-    overflow: hidden;
 }
 
 #slide1 {
@@ -309,7 +308,9 @@ main {
 }
 
 .img-carr-background {
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .n-sition-sitio {
@@ -554,6 +555,17 @@ main {
     }
 }
 
+@media only screen and (min-width: 1550px) {
+    .article-index {
+        grid-template-rows: .8fr 130vh 120vh 1fr 50vh;
+    }
+
+    .video_background {
+        max-width: 100%;
+        object-fit: cover;
+    }
+}
+
 @media only screen and (max-width: 1250px) {
 
     /* contenedor */
@@ -726,6 +738,12 @@ main {
     /* carrusel */
     #slider {
         width: 100%;
+    }
+
+    .img-carr-background {
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     #slide1:checked~#controls label:nth-last-child(1),
