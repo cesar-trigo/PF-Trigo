@@ -31,6 +31,11 @@ main {
     min-height: 100vh;
 }
 
+.video-index-2 {
+    visibility: hidden;
+    display: none;
+}
+
 /* --------------section-medolo V2-Index--------------------- */
 
 .conten-producto-index {
@@ -701,6 +706,7 @@ main {
 
 @media only screen and (max-width: 768px) {
 
+
     /* container */
     .article-index {
         grid-template-rows: 100vh 110vh 120vh 1fr 75vh;
@@ -904,6 +910,17 @@ main {
     /* index-grid */
     .article-index {
         grid-template-rows: 100vh 110vh 1fr 1fr 75vh;
+    }
+
+    /* video */
+    .video-index-1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    .video-index-2 {
+        display: block;
+        visibility: visible;
     }
 
     /* index-carrusel-img */

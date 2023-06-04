@@ -285,6 +285,11 @@ main {
   min-height: 100vh;
 }
 
+.video-index-2 {
+  visibility: hidden;
+  display: none;
+}
+
 /* --------------section-medolo V2-Index--------------------- */
 .conten-producto-index {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.114), rgb(0, 0, 0)), url(../assets/img/ducati-streetfighter-v2.jpg);
@@ -1001,6 +1006,15 @@ main {
   .article-index {
     grid-template-rows: 100vh 110vh 1fr 1fr 75vh;
   }
+  /* video */
+  .video-index-1 {
+    display: none;
+    visibility: hidden;
+  }
+  .video-index-2 {
+    display: block;
+    visibility: visible;
+  }
   /* index-carrusel-img */
   .img-carr-background {
     background-size: contain;
@@ -1208,6 +1222,69 @@ main {
   justify-content: center;
 }
 
+/* card-1 */
+.card-1 {
+  color: #1b1b1b;
+  width: 390px;
+  height: 554px;
+  position: relative;
+  outline: 6px solid #f5f5f5;
+  border-radius: 8px;
+  line-height: 150%;
+  padding: 16px;
+  background: #ff930f;
+  background-blend-mode: multiply;
+  background: linear-gradient(to top, #ff930f, #ffcc33);
+  transition: background-color 1s ease-in-out;
+  overflow: hidden;
+}
+
+.card-front {
+  /* bottom: 0px; */
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.card-back {
+  transform: translateX(120%);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+/*Text*/
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/*Text divider*/
+.title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  border-radius: 50%;
+  height: 2px;
+  margin: 2px auto;
+  background-color: #1b1b1b;
+}
+
+/*Hover*/
+.card-1:hover {
+  background-color: rgba(27, 27, 27, 0.1450980392);
+}
+
+.card-1:hover .card-front {
+  transform: translateX(-100%);
+}
+
+.card-1:hover .card-back {
+  transform: translateX(0);
+}
+
+/*  */
 .div-eventos {
   height: 120vh;
   padding-bottom: 3rem;
@@ -1222,9 +1299,10 @@ main {
   border-radius: 1rem;
 }
 
-.card-img-top {
-  height: 60%;
-  border-radius: 1rem;
+.card-img-event {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 .conten-pre-evento {

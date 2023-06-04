@@ -33,20 +33,21 @@
     color: #d9af41;
 }
 
-.span-modelos--red{
+.span-modelos--red {
     @extend .span-modelos;
     color: #c12a2f;
 }
 
-.span-modelos--green{
+.span-modelos--green {
     @extend .span-modelos;
     color: #5b5d52;
 }
 
-.span-modelos--white{
+.span-modelos--white {
     @extend .span-modelos;
     color: #aeb2b3;
 }
+
 /* 1 */
 
 .gradient-1 {
@@ -136,7 +137,7 @@
 
 @media only screen and (max-width: 1024px) {}
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 992px) {
     .titulo-modelos {
         font-size: 5rem;
     }
@@ -154,6 +155,7 @@
         font-size: 3rem;
         letter-spacing: 0rem;
     }
+
     .content-img-model {
         height: 20rem;
     }
