@@ -19,5 +19,6 @@
         "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#12232c",
-    "liveServer.settings.port": 5504
+    "liveServer.settings.port": 5504,
+    "cSpell.language": "en,es-ES"
 }
