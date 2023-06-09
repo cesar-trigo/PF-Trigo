@@ -94,19 +94,25 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        justify-content: flex-end;
+        padding-bottom: 1rem;
     }
 
     .conten-li {
+        justify-content: space-evenly;
         flex-direction: column;
-        flex-wrap: wrap;
-        gap: 1rem;
+        gap: 0rem;
         align-items: center;
+        padding: 1rem;
+        margin-top: 0rem;
+        height: 100%;
     }
 
     .conten-redes-footer {
         justify-content: center;
         align-items: center;
         gap: 2.5rem;
+        border-top: none;
 
         &>a {
             &>img {
@@ -119,9 +125,15 @@ footer {
         flex-direction: column;
     }
 
-    .conten-li {
-        margin-bottom: 3rem;
+    .conten-nav-name {
+        height: 100%;
+
+        nav {
+            height: 100%;
+        }
     }
+
+
 
     .div-partes-index {
         div {
