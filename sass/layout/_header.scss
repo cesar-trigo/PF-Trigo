@@ -44,7 +44,7 @@
 
 .nav-hamburgesa,
 .nav-cerrar {
-  cursor: pointer;
+  cursor: auto;
   grid-column: -2/-1;
   grid-row: 1/2;
   transition: 0.4s transform;
@@ -53,10 +53,12 @@
 .nav-hamburgesa {
   transform: var(--state-hamburgesa);
   margin-right: 2rem;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav-cerrar {
   transform: var(--state-cerrar);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav__icon {
