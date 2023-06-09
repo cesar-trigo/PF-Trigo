@@ -131,13 +131,9 @@
     }
 }
 
-@media only screen and (max-width: 1500px) {}
+@media only screen and (min-width: 1500px) {}
 
-@media only screen and (max-width: 1250px) {}
-
-@media only screen and (max-width: 1024px) {}
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1024px) {
     .titulo-modelos {
         font-size: 5rem;
     }
@@ -147,6 +143,11 @@
     .titulo-modelos {
         font-size: 5rem;
         letter-spacing: .3rem;
+        text-align: center;
+    }
+
+    .content-img-model {
+        height: 25rem;
     }
 }
 
@@ -164,7 +165,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-evenly;
         padding-bottom: 2rem;
         gap: 2rem;
     }
