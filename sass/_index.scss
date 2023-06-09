@@ -19,15 +19,17 @@ main {
 .article-index {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 106vh 130vh 120vh 1fr 50vh;
+    grid-template-rows: 100vh 130vh 120vh 1fr 50vh;
     flex-direction: column;
     width: 100%;
 }
+
 
 /* --------------video-Index--------------------- */
 
 .video_background {
     max-width: 100%;
+    object-fit: cover;
     min-height: 100vh;
 }
 
@@ -42,7 +44,7 @@ main {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.114), rgb(0, 0, 0)),
         url(../assets/img/ducati-streetfighter-v2.jpg);
     background-size: cover;
-    background-position: 70%;
+    background-position: 50%;
     height: 130vh;
     display: flex;
     gap: 1.5rem;
@@ -91,10 +93,9 @@ main {
         content: "";
         z-index: 2;
         position: absolute;
-        top: 1;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 120vh;
         background: linear-gradient(to right, #000000, #00000000, #000000f9);
         animation: 0.2s infinite noise;
         pointer-events: none;
@@ -104,7 +105,7 @@ main {
 
 #slider {
     margin: 0 auto;
-    width: 50%;
+    width: 54%;
     max-width: 100%;
     text-align: center;
 
@@ -126,6 +127,7 @@ main {
 
 #overflow {
     width: 100%;
+    overflow: visible;
 }
 
 #slide1 {
@@ -180,7 +182,7 @@ main {
 
 #slides {
     .inner {
-        transition: margin-left 3s cubic-bezier(0.7, 0.7, 0.2, 0.7);
+        transition: margin-left 2.5s ease-in-out;
         width: 500%;
         height: 500px;
     }
@@ -381,7 +383,7 @@ main {
 .h3-componentes-index {
     grid-column: 2/15;
     grid-row: 2/6;
-    font-size: 15rem;
+    font-size: 14rem;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -454,9 +456,8 @@ main {
 
 .greyscale-tranform-transition {
     filter: grayscale(0.8);
-    transform: scale(var(--escala, 1));
-    transition: transform 0.8s;
-    -o-transition: 1.5s ease;
+    transition: .8s;
+
 
     &:hover {
         filter: grayscale(0);
@@ -562,51 +563,24 @@ main {
 
 @media only screen and (min-width: 1550px) {
     .article-index {
-        grid-template-rows: .8fr 130vh 120vh 1fr 50vh;
-    }
-
-    .video_background {
-        max-width: 100%;
-        object-fit: cover;
-    }
-}
-
-@media only screen and (max-width: 1250px) {
-
-    /* contenedor */
-    .article-index {
-        grid-template-rows: 100vh 130vh 120vh 1fr 50vh;
-    }
-
-    /* video */
-    .video_background {
-        max-width: 100%;
-        object-fit: cover;
-        min-height: 100vh;
-    }
-
-    /* producto */
-    .conten-producto-index {
-        background-position: 50%;
-    }
-
-    .h3-componentes-index {
-        font-size: 14rem;
+        grid-template-rows: .87fr 130vh 120vh 1fr 50vh;
     }
 }
 
 @media only screen and (max-width: 1024px) {
+
     main {
         width: 100vw;
     }
 
-    /* carrusel */
-    #slider {
-        width: 60%;
+    .article-index {
+        grid-template-rows: 100vh 100vh 120vh 1fr 75vh;
     }
 
-    #overflow {
-        overflow: visible;
+    /* producto */
+    .conten-producto-index {
+        height: 100vh;
+        gap: 0rem;
     }
 
     #slide1 {
@@ -634,7 +608,7 @@ main {
         transform: scaleX(-1);
         position: absolute;
         z-index: 99;
-        top: -12rem;
+        top: 50%;
         left: -10rem;
         display: block;
     }
@@ -646,42 +620,19 @@ main {
     #slide5:checked~#controls label:nth-child(1) {
         position: absolute;
         z-index: 2;
-        top: -12rem;
+        top: 50%;
         right: -10rem;
         display: block;
     }
 
-    /* componentes */
-    .h3-componentes-index {
-        font-size: 13rem;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-
-    /* grid */
-    #grid {
-        grid-template-rows: 0vh 1fr 50vh;
-    }
-
-    /* container */
-    .article-index {
-        grid-template-rows: 100vh 110vh 120vh 1fr 40vh;
-    }
-
-    /* producto */
-    .conten-producto-index {
-        height: 100vh;
+    .conten-p-carrusel {
+        height: 40%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         gap: 0rem;
-    }
-
-    .conten-p-producto-index {
-        font-size: 0.75rem;
-    }
-
-    /* carrusel */
-    .p-1-carusel {
-        height: 80%;
     }
 
     .conten-p-carrusel {
@@ -690,33 +641,20 @@ main {
         }
     }
 
-    #bullets {
-        label {
-            width: 50px;
-            height: 5px;
-            border-radius: 0%;
-        }
-    }
-
-    /* partes */
+    /* componentes */
     .h3-componentes-index {
-        font-size: 10.3rem;
+        font-size: 10.5rem;
     }
 }
 
 @media only screen and (max-width: 768px) {
 
 
-    /* container */
-    .article-index {
-        grid-template-rows: 100vh 110vh 120vh 1fr 75vh;
-    }
-
     /* producto */
 
     .conten-producto-index {
         background-position: 80%;
-        align-items: flex-start;
+        align-items: center;
         justify-content: flex-end;
     }
 
@@ -782,6 +720,7 @@ main {
         font-size: 5rem;
         grid-column: 1/2;
         grid-row: 1/2;
+        text-align: center;
     }
 
     .div-partes-index {
@@ -941,43 +880,25 @@ main {
     }
 
     .conten-p-carrusel {
-        justify-content: space-between;
+        justify-content: space-around;
         width: 90%;
         height: 20rem;
 
         p {
-            font-size: 1rem;
+            font-size: .8rem;
         }
     }
 
-    #slides .slide {
-        height: 75vh;
-    }
-}
-
-@media only screen and (max-width: 380px) {
-
-    /* carrusel */
     .bt-producto {
         margin: 0px;
         padding: 0.7rem 3rem 0.7rem 3rem;
     }
 
-    .conten-p-carrusel {
-        justify-content: space-around;
-
-        p {
-            font-size: 0.8rem;
-        }
-    }
-
-    .p-1-carusel {
-        height: 100%;
+    #slides .slide {
+        height: 75vh;
     }
 
     #bullets {
-        label {
-            width: 30px;
-        }
+        display: none;
     }
 }
