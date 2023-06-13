@@ -1,0 +1,23 @@
+@mixin tv {
+    @media only screen and (min-width: 1550px) {
+        @content;
+    }
+}
+
+@mixin notebook {
+    @media only screen and (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin table {
+    @media only screen and (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobil {
+    @media only screen and (max-width: 450px) {
+        @content;
+    }
+}
