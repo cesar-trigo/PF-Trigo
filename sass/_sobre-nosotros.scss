@@ -1,23 +1,58 @@
+@use "variables" as*;
+@use "mediaqueries" as*;
+
 .conten-img-nosotros {
     height: 24rem;
     width: 24rem;
 }
 
-.img-nosotros {
-    height: 100%;
-    width: 100%;
+.h2-nosotros {
+    font-size: 13rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: $texto-blanco;
+    width: 90%;
+    letter-spacing: .4rem;
+    font-weight: bolder;
+    padding-top: 3rem;
 
-    &:hover {
-        opacity: .4;
+    @include notebook {
+        font-size: 10rem;
+        padding-top: 4rem;
+    }
+
+    @include table {
+        font-size: 7rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    @include mobil {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+}
+
+.img-nosotros {
+    height: 30rem;
+    filter: grayscale(1);
+
+    @include notebook {
+        height: 20rem;
+    }
+
+    @include table {
+        height: 10rem;
+        margin-bottom: 3rem;
     }
 }
 
 .main-bg-nostros {
-    background-image: url(../assets/img/ducati-motorcycle-kda-digital-art-2k-wallpaper-uhdpaper.com-784@0@g.jpg);
+    background: url(../assets/img/img-noise-1080x500.png);
+    background-color: $negro-lijero;
 }
 
 .container-ce {
-    width: 60%;
+    width: 80%;
     height: 10rem;
     display: flex;
     flex-direction: column;
@@ -33,4 +68,64 @@
 
 .card-nosotros {
     background-color: #000000;
+}
+
+.content-setions {
+    gap: 8rem;
+    margin: 5rem 0rem;
+}
+
+.card-title-nosotros {
+    border: .1rem solid #ffffff;
+    width: 15rem;
+    font-family: "Barlow Condensed", sans-serif;
+    padding: 1rem 1rem;
+}
+
+.invertir-columnas-nosotros {
+    @include table {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .img-nosotros {
+        height: 20rem;
+    }
+
+    .h2-nosotros {
+        font-size: 10rem;
+        padding-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .img-nosotros {
+        height: 10rem;
+        margin-bottom: 3rem;
+    }
+
+    .h2-nosotros {
+        font-size: 7rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .conten-img-nosotros {
+        display: none;
+    }
+
+    .invertir-columnas-nosotros {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .h2-nosotros {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+
 }

@@ -1,3 +1,5 @@
+@use "../mediaqueries" as*;
+
 footer {
     grid-area: footer;
     background: url(../assets/img/img-noise-1080x500.png);
@@ -7,18 +9,46 @@ footer {
     grid-template-rows: 5fr 0.5fr;
     justify-content: center;
     height: 60vh;
+
+    @include table {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: flex-end;
+        padding-bottom: 1rem;
+    }
 }
 
 .conten-nav-name {
     grid-column: 1/2;
     grid-row: 1/2;
     align-self: center;
+
+    @include table {
+        height: 100%;
+    }
+
+    nav {
+        @include table {
+            height: 100%;
+        }
+    }
 }
 
 .conten-li {
     display: flex;
     justify-content: space-between;
     margin-top: 1.5rem;
+
+    @include table {
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 0rem;
+        align-items: center;
+        padding: 1rem;
+        margin-top: 0rem;
+        height: 100%;
+    }
 
     li {
         list-style: none;
@@ -53,6 +83,8 @@ footer {
 
 .h3-foo {
     font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-size: 1.75rem;
 }
 
 .conten-p-footer {
@@ -63,6 +95,14 @@ footer {
     display: flex;
     align-items: center;
     gap: 1rem;
+
+    @include table {
+        flex-direction: column;
+    }
+
+    @include mobil {
+        gap: 0rem;
+    }
 }
 
 .conten-redes-footer {
@@ -74,84 +114,24 @@ footer {
     align-items: center;
     gap: 0.2rem;
 
-    a {
-        img {
-            height: 1.1rem;
-        }
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    /* footer */
-
-    .conten-redes-footer {
+    @include notebook {
         gap: 1rem;
     }
-}
 
-@media only screen and (max-width: 768px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        justify-content: flex-end;
-        padding-bottom: 1rem;
-    }
-
-    .conten-li {
-        justify-content: space-evenly;
-        flex-direction: column;
-        gap: 0rem;
-        align-items: center;
-        padding: 1rem;
-        margin-top: 0rem;
-        height: 100%;
-    }
-
-    .conten-redes-footer {
+    @include table {
         justify-content: center;
         align-items: center;
         gap: 2.5rem;
         border-top: none;
+    }
 
-        &>a {
-            &>img {
+    a {
+        img {
+            height: 1.1rem;
+
+            @include table {
                 height: 2.1rem;
             }
         }
     }
-
-    .conten-p-footer {
-        flex-direction: column;
-    }
-
-    .conten-nav-name {
-        height: 100%;
-
-        nav {
-            height: 100%;
-        }
-    }
-
-
-
-    .div-partes-index {
-        div {
-            &:nth-child(3) {
-                img {
-                    object-fit: cover;
-                }
-            }
-        }
-    }
-
-}
-
-@media only screen and (max-width: 380px) {
-
-    /* footer */
-    .conten-p-footer {
-        gap: 0rem;
-    }
-
 }

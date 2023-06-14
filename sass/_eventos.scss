@@ -1,3 +1,7 @@
+@use "variables" as*;
+@use "mediaqueries" as*;
+
+
 .main-bg-event {
   background-color: #000000;
   min-height: 100vh;
@@ -14,20 +18,66 @@
   justify-content: center;
 }
 
+.h2-eventos {
+  font-size: 14rem;
+  font-family: "Bebas Neue", sans-serif;
+  color: $texto-blanco;
+  width: 90%;
+  letter-spacing: .4rem;
+  height: 10rem;
+  font-weight: bolder;
+
+  @include notebook {
+    text-align: center;
+    height: 15rem;
+    font-size: 10rem;
+  }
+
+  @include table {
+    margin-top: 2rem;
+    font-size: 7rem;
+  }
+
+  @include mobil {
+    font-size: 4rem;
+    height: 10rem;
+    margin-top: 3rem;
+  }
+}
+
+.h2-eventos--proximos {
+  @extend .h2-eventos;
+  width: 90%;
+  color: #000000;
+  letter-spacing: .2rem;
+  height: 14rem;
+
+  @include mobil {
+    font-size: 4rem;
+  }
+}
+
 /* card-1 */
-.card-1 {
+.content-card-event {
   color: #1b1b1b;
-  width: 390px;
-  height: 554px;
+  width: 300px;
+  height: 470px;
   position: relative;
-  outline: 6px solid #f5f5f5;
   line-height: 150%;
   padding: 16px;
-  background: #ff930f;
-  background-blend-mode: multiply;
-  background: linear-gradient(to top, #ff930f, #ffcc33);
+  background: $blanco-lijero;
   transition: background-color 1s ease-in-out;
   overflow: hidden;
+  box-shadow: 2px 15px 27px 10px rgba(0, 0, 0, 0.88);
+
+  @include mobil {
+    width: 250px;
+    height: 420px;
+  }
+}
+
+.margin-0 {
+  margin: 0;
 }
 
 .card-front {
@@ -38,11 +88,40 @@
   width: 100%;
   text-align: center;
   transition: transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.div-img-card {
+  height: 50%;
+}
+
+.div-p-card-event {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.div-date-card {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+  background-color: #ffffff;
 }
 
 .card-back {
+  height: 100%;
   transform: translateX(120%);
-  transition: transform 1s cubic-bezier(0.785, 0.135, 0.150, 0.860);
+  transition: transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition-delay: .4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #ffffff;
 }
 
 
@@ -52,28 +131,32 @@
   font-weight: bold;
 }
 
-/*Text divider*/
-.title::after {
-  content: "";
-  display: block;
-  width: 50%;
-  border-radius: 50%;
-  height: 2px;
-  margin: 2px auto;
-  background-color: #1b1b1b;
+.p-date-card-n {
+  font-size: 1.2rem;
+  line-height: .1rem;
 }
+
+.p-date-card-t {
+  font-size: .6rem;
+}
+
+/* .subtitle-card-evento{
+} */
+
+/*Text divider*/
+
 
 
 /*Hover*/
-.card-1:hover {
+.content-card-event:hover {
   background-color: #1b1b1b25;
 }
 
-.card-1:hover .card-front {
+.content-card-event:hover .card-front {
   transform: translateX(-100%);
 }
 
-.card-1:hover .card-back {
+.content-card-event:hover .card-back {
   transform: translateX(0);
 }
 
@@ -81,12 +164,12 @@
 /*  */
 
 .div-eventos {
-  height: 120vh;
+  min-height: 150vh;
   padding-bottom: 3rem;
   padding-top: 3rem;
-  background-image: url(https://blog.tamaritmotorcycles.com/hubfs/caferacer-rockers_0003_Capa%201-min.jpg);
-  background-size: cover;
   width: 100%;
+  background: url(../assets/img/img-noise-1080x500.png);
+  background-color: $negro-lijero;
 }
 
 .bg-trans {
@@ -97,30 +180,30 @@
 .card-img-event {
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .conten-pre-evento {
-  height: 100vh;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.514)), url(../assets/img/ws_Mountains_Trees_&_Hilly_Road_2560x1600.jpg);
-  background-attachment: fixed;
-  background-position: center;
+  min-height: 140vh;
+  background: url(../assets/img/img-noise-1080x500.png);
+  background-color: #e3d6d6;
   width: 100%;
   padding: 0;
+  gap: 0rem;
 }
 
 .card-eventos {
   height: 25rem;
   padding: 0;
   border: none;
-  border-radius: 1rem;
   background-color: #000000;
+  box-shadow: 2px 15px 27px 10px rgba(0, 0, 0, 0.88);
+  margin: 1rem;
 }
 
 .img-pre-eventos {
   height: 100%;
   object-fit: cover;
-  border-radius: 1rem;
   opacity: .8;
   transition: .5s;
 
