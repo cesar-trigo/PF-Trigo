@@ -331,6 +331,10 @@ main {
     right: 1rem;
     display: block;
   }
+
+  @include mobil {
+    top: -3rem;
+  }
 }
 
 #slide1:checked~#controls label:nth-last-child(1),
@@ -341,7 +345,7 @@ main {
   transform: scaleX(-1);
   position: absolute;
   z-index: 99;
-  top: -12rem;
+  top: -3rem;
   left: -15rem;
   display: block;
 
@@ -361,6 +365,10 @@ main {
     top: -12rem;
     left: 1rem;
     display: block;
+  }
+
+  @include mobil {
+    top: -3rem;
   }
 }
 
