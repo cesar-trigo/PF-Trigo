@@ -154,6 +154,10 @@ h1 {
   }
 }
 
+.active-nav {
+  color: #aa1002;
+}
+
 footer {
   grid-area: footer;
   background: url(../assets/img/img-noise-1080x500.png);
