@@ -1,3 +1,4 @@
+@use "../variables" as*;
 @use "../mediaqueries" as*;
 
 footer {
@@ -59,10 +60,10 @@ footer {
             font-family: "Barlow Condensed", sans-serif;
             font-size: 1.2rem;
             font-weight: bold;
+            transition: .4s;
 
             &:hover {
-                color: rgba(255, 255, 255, 0.573);
-                -webkit-text-stroke: 0.05px rgba(255, 255, 255, 0.817);
+                color: $rojo-oscuro;
             }
         }
     }
