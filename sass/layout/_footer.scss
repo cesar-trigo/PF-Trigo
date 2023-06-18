@@ -62,9 +62,19 @@ footer {
             font-weight: bold;
             transition: .4s;
 
+            @include table {
+                transition: 0s;
+
+                &:active {
+                    color: $rojo-oscuro;
+                    -webkit-tap-highlight-color: transparent;
+                }
+            }
+
             &:hover {
                 color: $rojo-oscuro;
             }
+
         }
     }
 }
