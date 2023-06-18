@@ -49,7 +49,7 @@ h1 {
   line-height: 0.7;
   font-family: "Bebas Neue", sans-serif;
   z-index: 4;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 .nav-hamburgesa,
@@ -64,6 +64,10 @@ h1 {
   transform: var(--state-hamburgesa);
   margin-right: 2rem;
   -webkit-tap-highlight-color: transparent;
+
+  @include table {
+    margin-right: 0rem;
+  }
 }
 
 .nav-cerrar {
