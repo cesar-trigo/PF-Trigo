@@ -108,6 +108,7 @@ h1 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 0.14fr);
     justify-items: center;
+    padding-left: 0%;
   }
 }
 .ul-nav-header li:nth-child(1) {
