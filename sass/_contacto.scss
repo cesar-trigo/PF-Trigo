@@ -120,12 +120,11 @@
     gap: 16px;
     align-items: center;
 
-    button {
-        background-color: #ffffff57;
+    .btn-form-contac {
+        background-color: #f02;
         color: #fdfdfd;
         border: 0;
-        border-radius: 10px;
-        padding: 10px 16px;
+        padding: 5px 16px;
         font-size: 1rem;
         font-weight: 600;
         cursor: pointer;

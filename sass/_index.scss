@@ -383,7 +383,8 @@ main {
   align-items: center;
 
   @include mobil {
-    height: 100%;
+    height: 105%;
+    padding-bottom: 4rem;
   }
 }
 
