@@ -107,28 +107,6 @@
     background-repeat: no-repeat;
     background-position: bottom;
     z-index: 1;
-
-    /*     &::before {
-        position: absolute;
-        content: "";
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-image: radial-gradient(ellipse, #0000004e, #000000b1, #00000000, ), url(../assets/img/img-noise-1080x500.png);
-        background-size: cover;
-        background-position: center;
-        z-index: 2;
-        transition: opacity 1s linear;
-        opacity: 1;
-    }
-
-    &:hover {
-        &::before {
-            opacity: 0;
-            z-index: 1;
-        }
-    } */
 }
 
 /* btn */
@@ -170,9 +148,13 @@
         display: block;
         z-index: -1;
         border: 0px;
+
+        @include table {
+            width: 105%;
+        }
     }
 
-    &:hover {
+    &:focus {
         color: #ffffff;
 
         &::before {
