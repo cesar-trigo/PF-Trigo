@@ -687,6 +687,7 @@ main {
 @media only screen and (max-width: 450px) {
   .p-1-carusel {
     height: 100%;
+    padding-bottom: 4rem;
   }
 }
 
