@@ -110,6 +110,7 @@ h1 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, .14fr);
     justify-items: center;
+    padding-left: 0%;
   }
 
   li:nth-child(1) {
