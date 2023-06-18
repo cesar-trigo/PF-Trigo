@@ -1,11 +1,27 @@
 @use "variables" as*;
 @use "mediaqueries" as*;
 
+.grid-modelos {
+    overflow-y: scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+/* .main-modelos {
+
+}
+ */
 .conten-section-modelos {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(6, 105vh);
-    overflow: hidden;
+    grid-template-rows: repeat(6, 104vh);
+
+}
+
+.scroll-sniping {
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
 }
 
 .flex-modelos {
@@ -14,6 +30,7 @@
     align-items: center;
     justify-content: flex-end;
     padding-bottom: 2rem;
+    transition: 1s;
 
     @include mobil {
         justify-content: space-evenly;
@@ -90,7 +107,7 @@
     background-position: bottom;
     z-index: 1;
 
-    &::before {
+    /*     &::before {
         position: absolute;
         content: "";
         top: 0;
@@ -110,7 +127,7 @@
             opacity: 0;
             z-index: 1;
         }
-    }
+    } */
 }
 
 /* btn */
