@@ -45,7 +45,7 @@ h1 {
   line-height: 0.7;
   font-family: "Bebas Neue", sans-serif;
   z-index: 4;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
 
 .nav-hamburgesa,
@@ -60,6 +60,11 @@ h1 {
   transform: var(--state-hamburgesa);
   margin-right: 2rem;
   -webkit-tap-highlight-color: transparent;
+}
+@media only screen and (max-width: 768px) {
+  .nav-hamburgesa {
+    margin-right: 0rem;
+  }
 }
 
 .nav-cerrar {
@@ -1190,10 +1195,10 @@ main {
 /* btn */
 .btn-modelos {
   text-decoration: none;
-  height: 3rem;
-  width: 10rem;
-  padding: 0.8em 1.8em;
-  border: 1px solid rgba(255, 0, 0, 0.194);
+  height: 2rem;
+  width: 9rem;
+  padding: 0.3em 1.8em;
+  border: 1px solid transparent;
   position: relative;
   overflow: hidden;
   background-color: transparent;
@@ -1209,6 +1214,8 @@ main {
   justify-self: center;
   align-self: center;
   border-radius: 0.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 0.3rem;
 }
 .btn-modelos::before {
   content: "";
@@ -1350,7 +1357,6 @@ main {
   height: 100%;
   transform: translateX(120%);
   transition: transform 1s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  transition-delay: 0.4s;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -1386,6 +1392,7 @@ main {
 
 .content-card-event:hover .card-back {
   transform: translateX(0);
+  transition-delay: 0.4s;
 }
 
 /*  */
@@ -1564,10 +1571,26 @@ main {
   }
 }
 .bg-main-contacto {
-  background-image: url(https://i.pinimg.com/originals/d9/3c/4c/d93c4c1c170ff3f1e83527102edfd1dc.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-image: linear-gradient(to left, #000000 63%, rgba(0, 0, 0, 0) 62%), url(../assets/img/ducati-motorcycle-kda-digital-art-2k-wallpaper-uhdpaper.com-784@0@g.jpg);
+  background-size: contain;
+  background-position: -230% 80%;
+}
+@media only screen and (max-width: 1024px) {
+  .bg-main-contacto {
+    background-size: cover;
+    background-image: linear-gradient(to left, #000000 58%, rgba(0, 0, 0, 0) 58%), url(../assets/img/ducati-motorcycle-kda-digital-art-2k-wallpaper-uhdpaper.com-784@0@g.jpg);
+  }
+}
+
+.conten-div-contacto {
+  min-height: 100vh;
+}
+@media only screen and (max-width: 768px) {
+  .conten-div-contacto {
+    flex-direction: column-reverse;
+    padding-top: 5rem;
+    gap: 3rem;
+  }
 }
 
 .bg-black-contacto {
@@ -1589,16 +1612,50 @@ main {
 }
 
 .content-mapa {
-  height: 70vh;
+  min-height: 60vh;
+  justify-content: flex-start;
+  gap: 4rem;
+}
+@media only screen and (max-width: 768px) {
+  .content-mapa {
+    min-height: 35vh;
+  }
 }
 
 .d-flex {
   align-items: center;
-  justify-content: center;
 }
 
-.mapa-contac {
-  border-radius: 1rem;
+.f-contacto {
+  font-family: "Barlow Condensed", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .f-contacto {
+    text-align: center;
+  }
+}
+
+.conten-redes-contacto {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .conten-redes-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    visibility: hidden;
+  }
+}
+.conten-redes-contacto div {
+  justify-content: flex-start;
+  gap: 2rem;
+  border: 0;
+  margin-top: 2rem;
+}
+.conten-redes-contacto div a img {
+  height: 2rem;
+  text-align: center;
 }
 
 /* form */
@@ -1608,25 +1665,25 @@ main {
 }
 
 .form-box {
-  max-width: 300px;
-  background: rgba(0, 0, 0, 0.4235294118);
+  max-width: 100%;
   overflow: hidden;
-  border-radius: 16px;
   color: #ffffff;
 }
 
 .text-area-form {
   background-color: transparent;
   border: transparent;
+  width: 100%;
+  border-bottom: 1px solid #eee;
 }
 
 .form {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 32px 24px 24px;
+  padding: 0px 10px 24px;
   gap: 16px;
-  text-align: center;
+  align-items: center;
 }
 .form button {
   background-color: rgba(255, 255, 255, 0.3411764706);
@@ -1647,7 +1704,7 @@ main {
 /*Form text*/
 .title {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: 3.6rem;
 }
 
 .subtitle {
@@ -1664,7 +1721,9 @@ main {
   width: 100%;
 }
 
-.input {
+.input,
+textarea {
+  color: #eee;
   background: none;
   border: 0;
   outline: 0;
@@ -1672,7 +1731,12 @@ main {
   width: 100%;
   border-bottom: 1px solid #eee;
   font-size: 0.9rem;
-  padding: 8px 15px;
+}
+@media only screen and (max-width: 768px) {
+  .input,
+  textarea {
+    text-align: center;
+  }
 }
 
 .form-section {
@@ -1705,41 +1769,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/* boton de redes de contacto */
-.button-content {
-  position: relative;
-  z-index: 1;
-}
-
-.button {
-  position: relative;
-  overflow: hidden;
-  height: 3rem;
-  width: 10rem;
-  padding: 0 2rem;
-  border-radius: 0.5rem;
-  background: rgba(224, 224, 224, 0.6274509804);
-  background-size: 400%;
-  color: #000000;
-  border: none;
-}
-.button:hover::before {
-  transform: scaleX(1);
-}
-.button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scaleX(0);
-  transform-origin: 0 50%;
-  width: 100%;
-  height: inherit;
-  border-radius: inherit;
-  background: linear-gradient(82.3deg, rgb(200, 12, 12) 10.8%, rgb(238, 88, 88) 94.3%);
-  transition: all 0.475s;
 }
 
 * {
