@@ -57,7 +57,7 @@ footer {
 
         a {
             text-decoration: none;
-            color: white;
+            color: $gris;
             font-family: "Barlow Condensed", sans-serif;
             font-size: 1.2rem;
             font-weight: bold;
@@ -102,8 +102,8 @@ footer {
 .conten-p-footer {
     grid-column: 1/2;
     grid-row: 2/3;
-    border-top: #fff solid 1px;
-    color: white;
+    border-top: $gris solid 1px;
+    color: $gris;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -124,7 +124,7 @@ footer {
 .conten-redes-footer {
     grid-column: 2/3;
     grid-row: 2/3;
-    border-top: #fff solid 1px;
+    border-top: $gris solid 1px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
