@@ -1103,6 +1103,7 @@ main {
 .scroll-sniping {
   scroll-snap-align: center;
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 .flex-modelos {
