@@ -1720,18 +1720,17 @@ main {
   gap: 16px;
   align-items: center;
 }
-.form button {
-  background-color: rgba(255, 255, 255, 0.3411764706);
+.form .btn-form-contac {
+  background-color: #f02;
   color: #fdfdfd;
   border: 0;
-  border-radius: 10px;
-  padding: 10px 16px;
+  padding: 5px 16px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.form button:hover {
+.form .btn-form-contac:hover {
   background-color: #f8f8f8;
   color: #000000;
 }
