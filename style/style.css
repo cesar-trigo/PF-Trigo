@@ -1266,10 +1266,10 @@ main {
     width: 105%;
   }
 }
-.btn-modelos:focus {
+.btn-modelos:hover {
   color: #ffffff;
 }
-.btn-modelos:focus::before {
+.btn-modelos:hover::before {
   width: 105%;
 }
 
