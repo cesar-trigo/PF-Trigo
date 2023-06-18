@@ -1,8 +1,25 @@
+@use "mediaqueries" as*;
+
 .bg-main-contacto {
-    background-image: url(https://i.pinimg.com/originals/d9/3c/4c/d93c4c1c170ff3f1e83527102edfd1dc.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(to left, #000000 63%, rgba(0, 0, 0, 0) 62%), url(../assets/img/ducati-motorcycle-kda-digital-art-2k-wallpaper-uhdpaper.com-784@0@g.jpg);
+    background-size: contain;
+    background-position: -230% 80%;
+
+    @include notebook {
+        background-size: cover;
+        background-image: linear-gradient(to left, #000000 58%, rgba(0, 0, 0, 0) 58%), url(../assets/img/ducati-motorcycle-kda-digital-art-2k-wallpaper-uhdpaper.com-784@0@g.jpg);
+    }
+}
+
+
+.conten-div-contacto {
+    min-height: 100vh;
+
+    @include table {
+        flex-direction: column-reverse;
+        padding-top: 5rem;
+        gap: 3rem;
+    }
 }
 
 .bg-black-contacto {
@@ -21,19 +38,57 @@
 /* form */
 .content-contac {
     height: 100vh;
+
 }
 
 .content-mapa {
-    height: 70vh;
+    min-height: 60vh;
+    justify-content: flex-start;
+    gap: 4rem;
+
+    @include table {
+        min-height: 35vh;
+    }
 }
 
 .d-flex {
     align-items: center;
-    justify-content: center;
 }
 
-.mapa-contac {
-    border-radius: 1rem;
+.f-contacto {
+    font-family: "Barlow Condensed", sans-serif;
+
+    @include table {
+        text-align: center;
+    }
+
+}
+
+
+.conten-redes-contacto {
+    width: 100%;
+
+    @include table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+        visibility: hidden;
+    }
+
+    div {
+        justify-content: flex-start;
+        gap: 2rem;
+        border: 0;
+        margin-top: 2rem;
+
+        a {
+            img {
+                height: 2rem;
+                text-align: center;
+            }
+        }
+    }
 }
 
 /* form */
@@ -45,25 +100,25 @@
 
 
 .form-box {
-    max-width: 300px;
-    background: #0000006c;
+    max-width: 100%;
     overflow: hidden;
-    border-radius: 16px;
     color: #ffffff;
 }
 
 .text-area-form {
     background-color: transparent;
     border: transparent;
+    width: 100%;
+    border-bottom: 1px solid #eee;
 }
 
 .form {
     position: relative;
     display: flex;
     flex-direction: column;
-    padding: 32px 24px 24px;
+    padding: 0px 10px 24px;
     gap: 16px;
-    text-align: center;
+    align-items: center;
 
     button {
         background-color: #ffffff57;
@@ -86,7 +141,7 @@
 /*Form text*/
 .title {
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 3.6rem;
 }
 
 .subtitle {
@@ -103,7 +158,9 @@
     width: 100%;
 }
 
-.input {
+.input,
+textarea {
+    color: #eee;
     background: none;
     border: 0;
     outline: 0;
@@ -111,7 +168,10 @@
     width: 100%;
     border-bottom: 1px solid #eee;
     font-size: .9rem;
-    padding: 8px 15px;
+
+    @include table {
+        text-align: center;
+    }
 }
 
 .form-section {
@@ -146,47 +206,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-/* boton de redes de contacto */
-
-
-.button-content {
-    position: relative;
-    z-index: 1;
-}
-
-.button {
-    position: relative;
-    overflow: hidden;
-    height: 3rem;
-    width: 10rem;
-    padding: 0 2rem;
-    border-radius: .5rem;
-    background: #e0e0e0a0;
-    background-size: 400%;
-    color: #000000;
-    border: none;
-
-    &:hover {
-        &::before {
-            transform: scaleX(1);
-        }
-    }
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: scaleX(0);
-        transform-origin: 0 50%;
-        width: 100%;
-        height: inherit;
-        border-radius: inherit;
-        background: linear-gradient(82.3deg,
-                rgb(200, 12, 12) 10.8%,
-                rgb(238, 88, 88) 94.3%);
-        transition: all 0.475s;
-    }
 }
