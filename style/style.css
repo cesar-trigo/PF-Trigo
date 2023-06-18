@@ -168,6 +168,7 @@ h1 {
 footer {
   grid-area: footer;
   background: url(../assets/img/img-noise-1080x500.png);
+  background-attachment: fixed;
   background-color: #000000;
   display: grid;
   grid-template-columns: 50% 40%;
@@ -279,6 +280,9 @@ footer {
     gap: 0rem;
   }
 }
+.conten-p-footer p {
+  font-family: "Bebas Neue", sans-serif;
+}
 
 .conten-redes-footer {
   grid-column: 2/3;
@@ -307,7 +311,7 @@ footer {
 }
 @media only screen and (max-width: 768px) {
   .conten-redes-footer a img {
-    height: 2.1rem;
+    height: 1.5rem;
   }
 }
 
