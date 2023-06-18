@@ -677,6 +677,9 @@ main {
   filter: grayscale(0.8);
   transition: .8s;
 
+  @include table {
+    filter: grayscale(0);
+  }
 
   &:hover {
     filter: grayscale(0);
@@ -818,7 +821,6 @@ main {
 
   @include table {
     width: 94%;
-    background: url(../img/img-noise-1080x500.png);
     background-color: $blanco-lijero;
     display: grid;
     grid-template-columns: repeat(3, 0.5fr);
@@ -841,6 +843,10 @@ main {
 
 .greyscale {
   filter: grayscale(1);
+
+  @include table {
+    filter: grayscale(0);
+  }
 
   &:hover {
     filter: grayscale(0);
