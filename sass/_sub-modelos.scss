@@ -1,0 +1,27 @@
+.h2-sub-modelos {
+    font-size: 5rem;
+    font-family: "Bebas Neue", sans-serif;
+    color: aliceblue;
+    width: 100%;
+    letter-spacing: 0.4rem;
+    z-index: 2;
+    text-align: center;
+}
+
+.conten-section-sub-m {
+    position: relative;
+    overflow: hidden;
+}
+
+.div-h2-sub-m {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+.img-sub-m {
+    height: 18rem;
+}
