@@ -455,6 +455,7 @@ main {
   padding: 0.7rem 1rem 0.7rem 1rem;
   margin: 0.5rem;
   font-family: "Roboto", sans-serif;
+  transition: 0.4s;
 }
 @media only screen and (max-width: 768px) {
   .bt-producto {
@@ -464,6 +465,9 @@ main {
     padding: 0.7rem 5rem 0.7rem 5rem;
     margin: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
+}
+.bt-producto:hover {
+  background-color: rgba(126, 2, 18, 0.979);
 }
 
 /* --------------carrusel-Index--------------------- */
@@ -1225,8 +1229,8 @@ main {
 /* btn */
 .btn-modelos {
   text-decoration: none;
-  height: 2rem;
-  width: 9rem;
+  height: 2.5rem;
+  width: 10rem;
   padding: 0.3em 1.8em;
   border: 1px solid transparent;
   position: relative;
@@ -1234,7 +1238,7 @@ main {
   background-color: transparent;
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 20px;
   transition: 0.3s;
   z-index: 1;
   font-family: inherit;
@@ -1245,12 +1249,11 @@ main {
   align-self: center;
   border-radius: 0.5rem;
   font-family: "Barlow Condensed", sans-serif;
-  letter-spacing: 0.3rem;
 }
 .btn-modelos::before {
   content: "";
   width: 0;
-  height: 300%;
+  height: 260%;
   position: absolute;
   top: 50%;
   left: 50%;
