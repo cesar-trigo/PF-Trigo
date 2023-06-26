@@ -9,7 +9,11 @@
     z-index: 2;
     text-align: center;
     background: rgba(0, 0, 0, 0.747);
-    margin-bottom: 0;
+    margin-top: 5rem;
+
+    @include table {
+        margin: 0rem;
+    }
 
     @include mobil {
         font-size: 2.3rem;
@@ -25,9 +29,9 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    justify-content: center;
+    justify-content: flex-start;
 
     @include table {
         width: 100%;
