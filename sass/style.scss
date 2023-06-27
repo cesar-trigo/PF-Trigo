@@ -1,4 +1,5 @@
 @use "mediaqueries";
+@use "normalizacion";
 @use "layout/header";
 @use "layout/footer";
 @use "variables";
@@ -8,9 +9,3 @@
 @use "sobre-nosotros";
 @use "contacto";
 @use "sub-modelos";
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
