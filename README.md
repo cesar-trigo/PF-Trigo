@@ -2,3 +2,6 @@
 
 
 este proyecto se realizó con :
+HTML 
+CSS
+SASS
